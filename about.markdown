@@ -4,15 +4,8 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+I'm a naturally curious software developer with a deep passion for understanding how things work. With extensive experience in information security, compilers development, backend development, application development, team management, and Android development, I've developed a diverse skill set that allows me to excel in multiple areas of software development.
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+What really excites me is the intersection of __AI__, __compilers__, and __cyber security__. I love exploring the fascinating connections between these fields and discovering innovative solutions. As a clean code enthusiast, I take pride in my ability to independently plan and execute projects from start to finish.
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
-
-
-[jekyll-organization]: https://github.com/jekyll
+I currently work at [Lightricks](https://www.lightricks.com/) as a Senior Android developer.
