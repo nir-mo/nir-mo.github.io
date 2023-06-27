@@ -19,6 +19,13 @@ layout: default
     {{ content }}
   </div>
 
+  {% if page.tags.size > 0 %}
+    <h4>Tags:</h4>
+    {% for tag in page.tags %}  
+      <a href="/{{ site.tag_page_dir }}/{{ tag | slugify: 'pretty' }}/">{{ tag }}</a>&nbsp;&nbsp;
+    {% endfor %}
+  {% endif %}
+
   {%- if site.disqus.shortname -%}
     {%- include disqus_comments.html -%}
   {%- endif -%}

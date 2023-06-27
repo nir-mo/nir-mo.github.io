@@ -33,7 +33,10 @@ google_analytics: G-P4V8MHLYZ4
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-tagging
 
+tag_page_layout: tag_page
+tag_page_dir: tag
 
 # Exclude from processing.
 # The following items will not be processed, by default.
