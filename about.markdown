@@ -27,7 +27,7 @@ This research was conducted with [Prof. Danny Dolev](https://www.cs.huji.ac.il/~
 
 ### Work expirenece
 
-#### Senior Android Developer | [Lightricks](https://www.lightricks.com/) | May 2020 - Present (3 yrs 2 mos)
+#### __Senior Android Developer__ | [Lightricks](https://www.lightricks.com/) | May 2020 - Present (3 yrs 2 mos)
 
   Developed high-quality Android applications as a senior member of the Android development team at Lightricks.
   Contributed to the development and maintenance of a large code base, ensuring clean and efficient code.
@@ -53,7 +53,7 @@ __Skills__: Engineering Management · Interviewing · Code Review · Mentoring �
 
 __Skills__: AI · Dynamodb · RDS · Python · Backend Development · Redshift · S3 · SQL
 
-#### Cyber Security Engineer at [CISCO](https://www.cisco.com/c/en_il/index.html) / NDS | April 2011 – November 2016
+#### __Cyber Security Engineer__ at [CISCO](https://www.cisco.com/c/en_il/index.html) / NDS | April 2011 – November 2016
 
   Designed, analyzed, and developed security solutions and tools for conditional access and DRM for various markets.
   Conducted research and development in automatic software obfuscation, LLVM, static and dynamic software analysis, and video and e-book watermarking.
@@ -63,7 +63,7 @@ __Skills__: AI · Dynamodb · RDS · Python · Backend Development · Redshift
 
 __Skills__: Code Obfuscation · LLVM · Reverse Engineering · Assembly (x86/ARM) · Cryptography · Problem Solving · Low Level Programming · Python · C · C++
 
-#### Software Engineer at Israeli Military Intelligence - Unit 8200 | December 2005 – December 2010
+#### __Software Engineer__ at Israeli Military Intelligence - Unit 8200 | December 2005 – December 2010
       
   * Completed the ARAM Course, specializing in low-level programming languages such as Assembly, C, and C++ under the Win32 platform.
   Gained experience in high-level development and scripting with Python, as well as network protocol analysis.
