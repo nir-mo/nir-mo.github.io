@@ -27,7 +27,7 @@ This research was conducted with [Prof. Danny Dolev](https://www.cs.huji.ac.il/~
 
 ### Work expirenece
 
-#### __Senior Android Developer__ | [Lightricks](https://www.lightricks.com/) | May 2020 - Present (3 yrs 2 mos)
+#### __Senior Android Developer__ | [Lightricks](https://www.lightricks.com/) | May 2020 - Present
 
   Developed high-quality Android applications as a senior member of the Android development team at Lightricks.
   Contributed to the development and maintenance of a large code base, ensuring clean and efficient code.
