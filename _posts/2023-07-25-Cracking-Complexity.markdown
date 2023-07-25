@@ -69,20 +69,19 @@ q){q=p;for(v=512;p-q-g&&q-p-              g;  v--)q=-~q*9%512
 From IOCCC: [`yang` 2015](https://www.ioccc.org/2015/yang/prog.c)
 
 ## Building an IOCCC Database for Research
-Constructing a comprehensive database of IOCCC entries was a crucial step in conducting my research. Fortunately, the IOCCC maintains an [archive](https://github.com/ioccc-src/winner) containing all the winning entries since its inception in 1984. Within this archive, each entry is accompanied by the original obfuscated C program, a hint offered by the program writer, and a concise spoiler.
+To efficiently collect the essential information for my research, I developed a Python script to retrieve and organize 
+the data into an SQLite database. This streamlined approach allowed me to create a comprehensive database of IOCCC 
+entries with ease.
 
-To streamline the process of collecting this valuable information, I developed a short Python script. This script efficiently retrieved and organized all the relevant data into an SQLite database, perfectly suited for my research requirements. Each record in the database is composed of the entry's name, year of participation, the obfuscated C program itself, the hint provided by the author, and the corresponding spoiler.
+The database includes each entry's name, year of participation, the obfuscated C program, the hint provided by the author, and the corresponding spoiler. 
 
-I have created a GitHub repository containing the Python script used to construct the database of IOCCC entries. Additionally, the repository includes a prebuilt version of the SQLite database for quick access and analysis. You can find the repository at [https://github.com/nir-mo/ioccc-db](https://github.com/nir-mo/ioccc-db).
-
-Armed with this DB, I was able to evaluate ChatGPT's capabilities and explore its performance in deciphering complex programming constructs and recognizing obfuscation patterns. This database stands as a valuable resource for researchers and developers alike, providing insights into the intricacies of code obfuscation and the potential for AI language models to tackle such cryptic challenges.
-
+For easy access and analysis, I have also shared the Python script and a prebuilt version of the SQLite database in a GitHub repository at https://github.com/nir-mo/ioccc-db. 
 
 ## Analyzing ChatGPT's Performance
 
 In the initial phase of my research, I utilized a Python script powered by [LangChain](https://python.langchain.com/docs/get_started/introduction.html), an innovative library for interacting with OpenAI's GPT-3 language models. This script was designed to map IOCCC entries by querying the language model for insights into the functionality of the obfuscated C programs. By establishing a prompt template, the script simulated the expertise of a __master in C programming language__, asking them to explain each C program's purpose or say `I don't know` if it failed to understand.
 
-Note that in some cases the prompt has too many tokens, __I skiped these entries__.
+Note that in some cases the prompt has too many tokens, __I skipped these entries__.
 
 
 ```python
