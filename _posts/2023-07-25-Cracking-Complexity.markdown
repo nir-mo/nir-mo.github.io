@@ -118,9 +118,7 @@ with sqlite3.connect('ioccc_winners.sqlite') as ioccc_winners_db:
         
 ```
 
-### Filter the results - what OpenAI detected successfully
-
-
+### Filtering Successful Results: ChatGPT's Accuracy in Code Analysis
 
 ```python
 success = []
