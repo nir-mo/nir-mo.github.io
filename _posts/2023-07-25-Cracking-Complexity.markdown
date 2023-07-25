@@ -284,6 +284,10 @@ While this program's analysis lies outside the scope of this blog post, it serve
 
 The exploration of ChatGPT's performance in deciphering obfuscated C code from the IOCCC has uncovered intriguing insights and potential directions for further research. To shed light on the implications of this study and pave the way for future investigations, several promising avenues emerge:
 
+
+__Explore more real-world obfuscations__:
+One important consideration regarding the current dataset is its public availability, which raises the possibility that ChatGPT may have been trained on these programs. To expand the scope of the research and avoid potential biases, it is crucial to seek additional code examples that are not as widely accessible. Furthermore, while the IOCCC entries present captivating and artistic obfuscation challenges, they may not fully represent the practical obfuscation techniques found in real-world scenarios. By incorporating more diverse and less publicly available code samples, we can better evaluate ChatGPT's ability to comprehend a wider range of obfuscation styles encountered in practical software development and security contexts.
+
 __Comparing the Results Against Other LLMs__:
 An exciting next step involves comparing ChatGPT's performance with other Language Model-based approaches (LLMs) in understanding obfuscated C code. By evaluating different LLMs' capabilities and identifying their respective strengths and weaknesses, researchers can gain a comprehensive understanding of the state-of-the-art in code comprehension. Such comparisons may highlight unique features of individual models, offering valuable insights to improve the overall effectiveness of AI-driven code analysis.
 
