@@ -309,4 +309,4 @@ If you have any questions, suggestions, or would like to discuss further insight
 
 ## Files
 1. [ioccc_winners.sqlite](https://github.com/nir-mo/ioccc-db)
-2. [CSV file with all the results](../assets/2023-07-25-Cracking-Complexity/reasearch_results_20_7_2023.csv) 
+2. [CSV file with all the results]({% site.url %}/assets/2023-07-25-Cracking-Complexity/reasearch_results_20_7_2023.csv) 
