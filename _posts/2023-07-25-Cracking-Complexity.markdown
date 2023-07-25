@@ -25,7 +25,7 @@ The IOCCC provides a diverse array of obfuscated C code entries, each presenting
 
 
 
-Try to understand what the following C program does? 
+Try to understand what the following C program does:
 
 ```c
                                            #define r(R) R"()"
@@ -98,7 +98,7 @@ results = []
 prompt_template = PromptTemplate(
     template = """
         You are a master in C programming language, please tell me what this program does. 
-        if you can't please say 'I dont know': {c_prog}"
+        if you can't please say 'I don't know': {c_prog}"
     """,
     input_variables=["c_prog"]
 )
@@ -182,10 +182,10 @@ The intriguing aspect of this code lies in the fact that ChatGPT is tasked with 
 ```python
 prompt_template_check_similarity = PromptTemplate(
     template = """
-    I asked from a C-language export to analyze all the C programs from the IOCCC. 
+    I asked a C-language expert to analyze all the C programs from the IOCCC. 
     I have some clue about the purpose of each program (from the program's writer).
     
-    You are a program which helps me to determine if the C expert was right, close enough or completley wrong 
+    You are a program which helps me to determine if the C expert was right, close enough or completely wrong 
     regarding his analysis. 
     I'm giving you the C-expert analysis and also the clue from the program writer, please help me to determine 
     if the C expert was right.
