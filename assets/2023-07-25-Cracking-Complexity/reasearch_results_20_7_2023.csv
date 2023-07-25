@@ -1,0 +1,945 @@
+Name,Year,Spoiler,OpenAI analysis,Was it right?
+endoh2,2013,JPEG quine that expands and inverts,"
+
+This program is an implementation of an International Obfuscated C Code Contest (IOCCC) challenge from 2013. It reads an input string from the keyboard and prints out a series of characters based on the input string.",Close enough.
+endoh4,2013,ASCII solid rotation,"
+
+This program is a 3D graphic animation program that uses a C language. It uses a combination of mathematical functions and C language to generate a 3D graphic animation.",Close enough.
+endoh3,2013,play music with ABC notation,"
+
+I don't know.",
+morgan1,2013,X11 based Solar system simulator,"
+
+I don't know.",
+cable3,2013,IBM PC emulator,"
+
+This program is a C implementation of a game. It uses the SDL library for graphics and user input. It includes functions for reading and writing data, handling user input, and drawing graphics. The program also includes logic for game logic, such as scoring and movement.",Wrong!
+misaka,2013,horizontal or vertical file concat,"
+
+I don't know.",
+cable2,2013,OCR in quick brown fox ASCII art,"
+
+I don't know.",
+dlowe,2013,ASCII spark line graph,"
+
+I don't know.",
+mills,2013,HTTP server ray tracing a timestamp,"
+
+This program appears to be a program that generates a graphic image based on the current time.",Wrong!
+endoh1,2013,SKI Combinator Calculus tool,"
+
+This program is a compiler-like program written in C. It is designed to generate a function that can be used to apply a certain operation to a set of data. The program works by creating a series of functions that can be used to apply the operation to the data. The program also includes a main function to execute the generated function.",Close enough.
+hou,2013,ray tracer,Error: Too many tokens,
+robison,2013,multi-precision arithmetic,"
+
+I don't know.",
+morgan2,2013,X11 & ASCII domino matching game,"
+
+This program appears to be a C program that creates a graphical window with a game inside. It appears to be a game where the user has to match a pattern of colored circles in the correct order.",Close enough.
+cable1,2013,1-liner party of a US President,"
+
+I don't know.",
+birken,2013,use Tetris to paint a picture,"
+
+This program prints out a figure on the screen. It uses the C programming language to accomplish this task. The figure it prints out is determined by the data given to it as input.",Wrong!
+maffiodo2,2014,ASCII art 1-line converter,"
+
+I don't know.",
+endoh2,2014,ASCII to DNA transcoder,"
+
+This program prints out a string of characters to the screen. It prints out four possible combinations of the characters ""ACGT"" and ""TGCA"" depending on the value of the variable ""x"".",Close enough.
+deak,2014,CPP and C99 abuse,"
+
+I don't know.",
+vik,2014,Morse audio transcoder,"
+
+I don't know.",
+sinon,2014,optimizer-controlled shooter game,"
+
+I don't know.",
+skeggs,2014,dynamic library abusing game,"
+
+I don't know.",
+maffiodo1,2014,homage to a popular game,"
+
+This program is a game written in C language. It is a variant of the classic game of Pong, where the user has to use the left and right arrow keys to move the paddle and hit the ball in order to gain points. The program also includes audio and video components.",Close enough!
+endoh1,2014,QR encoder,"
+
+I don't know.",
+wiedijk,2014,Y combinator,"
+
+I don't know.",
+morgan,2014,make clone,"
+
+I don't know.",
+birken,2014,Klingon web server,"
+
+This program is a server-client program that implements a game. The server is initialized with a set of values, including a port number, and then it waits for a connection from the client. Once a connection is established, the server and client exchange information, such as the current game state, and the client can then send commands to the server to make changes to the game. The server then updates the game accordingly and sends the updated state back to the client.",Wrong!
+endoh2,2015,hidden text quine,"
+
+I don't know.",
+endoh4,2015,visual factorization,"
+
+I don't know.",
+endoh3,2015,1984/mullender emulator,"
+
+This program is a piece of code written in C that defines a constructor function, which is then used to execute various instructions. The program is likely used to perform various tasks, such as writing data to files or to the console.",Wrong!
+yang,2015,"text encoder with sea star pattern, varies with C flavor","
+
+I don't know.",
+duble,2015,handwriting with Braille,"
+
+This program is a C program that prints out ""hello world!"" when executed.",Wrong!
+mills2,2015,uncompress,"
+
+I don't know.",
+burton,2015,hex/decimal calculator,"
+
+I don't know.",
+endoh1,2015,reaction-diffusion system HTTP server,"
+
+I don't know.",
+hou,2015,MD5 without integers,"
+
+I don't know.",
+dogon,2015,X11 Minecraft demo,"
+
+I dont know.",
+muth,2015,preprocessor Turing engine,"
+
+I don't know.",
+schweikhardt,2015,Collatz bignum computation,"
+
+This program appears to be a program written in C language that performs binary operations on a string. It takes in a string of characters and performs various operations on the characters, such as shifting bits, calculating modulo, etc. The program then prints the result of the operations.",Wrong!
+howe,2015,diff tool,"
+
+This program is a diff utility which compares two files and prints out the differences between them. It uses the ""diff"" algorithm to compare the two files and prints out the differences between them.",Close enough.
+mills1,2015,flappy bird,"
+
+This program appears to be a game written in C. It uses the Curses library to create a terminal-based game. The game involves the user controlling a character with the arrow keys and navigating obstacles. The game also keeps track of the user's highest score.",Wrong!
+grothe,2012,Shamir secret sharing,"
+
+This program appears to read in some data from text files, perform some calculations on the data, and then output the data to other text files.",Wrong!
+endoh2,2012,Pi/e quine,"
+
+This program prints the code of itself, a process known as quining.",Close enough
+vik,2012,Steganography,"
+
+This program is a compression/decompression program that uses zlib library. It reads in data from a specified file or string and compresses/decompresses it accordingly. It also stores the resulting data in a variable or file.",Wrong!
+omoikane,2012,Encodes text as a C program,"
+
+I don't know.",
+tromp,2012,Lambda interpreter,"
+
+I don't know.",
+zeitak,2012,Brace matcher,"
+
+I don't know.",
+hamano,2012,PDF with little dancing men,"
+
+This program prints out a PDF file with some text and formatting. It defines some variables and functions, and then uses them to create the PDF.",Wrong!
+dlowe,2012,Conway's game of death,"
+
+This program appears to be a program written in C programming language to implement a game of Conway's Game of Life. It reads in a data file called ""splash.d"", ""dead.d"" and ""sprites.d"", and uses them to construct a game board and to create the game logic. It also reads input from the keyboard and responds accordingly.",Close enough.
+deckmyn,2012,Music notation printer,"
+
+I don't know.",
+kang,2012,Decodes spelled out numbers,"
+
+I don't know.",
+endoh1,2012,ASCII fluid dynamics,"
+
+I don't know.",
+hou,2012,Syntax highlighter,"
+
+I don't know.",
+blakely,2012,Animated GIFs of surfaces,"
+
+I don't know.",
+konno,2012,Linear cellular automaton 1-liner,"
+
+I don't know.",
+litmaath,1988,"sorts each arg using only argc, argv, and 'while(<cond>);'","
+
+I don't know.",
+phillipps,1988,"'first day of christmas', tables, heavily main() calling","
+
+This program is a recursive function that prints out a string depending on the parameters passed to it. It appears to be printing out the string ""!ek;dc i@bK'(q)-[w]*%n+r3#l,{}: uwloca-O;m .vpbks,fxntdCeghiry"".",Wrong!
+reddy,1988,"prints name of 'char *(*(foo[16])();', compressed","
+
+This program reads a string from the user and parses it as a C declaration. It then prints a description of the declaration to the console.",Wrong!
+westley,1988,"prints '3.141', circle made of '_-_-_-_' in layout","
+
+This program prints the result of 4 multiplied by minus one divided by zero divided by zero, which is undefined.",Wrong!
+applin,1988,"massive #define stuff, includes itself; prints table of primes","
+
+This program uses C programming language to print the largest number of 1s that can be represented by 16 bits (represented by the variable vv). It also prints the number of 1s (represented by the variable ff) used to represent that number.",Wrong!
+spinellis,1988,"#include ""/dev/tty""","
+
+I don't know.",
+robison,1988,"print e in any base, uses only --, >=, and while()","
+
+I don't know.",
+dale,1988,"prints command line, using lots of system calls","
+
+This program appears to be a C program that creates a chroot environment, executes a command, and then performs various functions related to the command. It uses various C language commands, such as switch, if, goto, and write, to accomplish its tasks.",Close enough.
+isaak,1988,"table driven table of the elements; cpp, self-inclusion","
+
+I don't know.",
+bright,1986,"hex dump, cpp compressed, uses lost of << for constants","
+
+This program reads a file and prints out its contents in a readable hexadecimal format. It also replaces non-printable characters with a period (.).",Close Enough.
+wall,1986,dvorak keyboard emulator,"
+
+I don't know.",
+pawka,1986,"prints 'obfuscated?' big, uses xyyyx idents...","
+
+I don't know.",
+stein,1986,prints HHMMSS in UTC time,"
+
+I don't know.",
+hague,1986,morse code filter written with 'DIT DAH _DIT DIT_DAH',"
+
+I don't know.",
+holloway,1986,prints hello world! via a recursive main,"
+
+This program is a C program that is used to define a set of constants and arrays and then output a character based on the values stored in the arrays. It seems to be used to generate a string of characters based on the values stored in the arrays.",Wrong!
+august,1986,"struct-heavy e-computation, memory allocation with sbrk","
+
+This program reads a number from the keyboard and prints the number in its digit form. It uses the C programming language to define a structure and to create functions to parse the number and to print it to the screen.",Wrong!
+marshall,1986,"train engine-shaped program prints ""choo choo""","
+
+I don't know.",
+applin,1986,"hello world works under cc, /bin/sh, and f77","
+
+This program prints ""Hello, world!"" to the console.",Close enough.
+wall,1987,roman numeral -> decimal and vice versa conversion,"
+
+This program is a C program that sets up an array of functions and then iterates through them one by one. The functions perform various tasks such as reading input from the user, writing output to the screen, and manipulating the data.",Wrong!
+korn,1987,one-liner that prints a message on a Un*x system,"
+
+This program prints out the string ""have fun"" to the console.",Close enough.
+heckbert,1987,obfuscated fold program,"
+
+This program reads a file and checks for different kinds of syntax and formatting errors. It then prints out which lines have errors and the type of errors.",Wrong!
+westley,1987,individually palindromic lines prints a palindrome,"
+
+This program prints out the phrase ""Able was I ere I saw elbA"" followed by a new line. It uses a for loop to iterate through each character in the string and use the putchar() function to print them out.",Close enough.
+biggar,1987,"program: ""P;"" defined on command line","
+
+I don't know.",
+lievaart,1987,very good othello player,"
+
+This program is a game of Tic-Tac-Toe written in C. The program will prompt the user for the level they would like to play and then will take turns prompting the user and computer for their moves. The program will then evaluate the moves and determine who the winner is.",Wrong!
+hines,1987,"counts goto's, all ids anagrams of 'goto', all flow w goto","
+
+I don't know.",
+roemer,1989,"prints e, script-pi shaped layout, _31415 identifiers","
+
+I don't know.",
+vanb,1989,one-liner prints all subsets of arguments,"
+
+I don't know.",
+westley,1989,"reversible, rot13able program that reverses and/or rot13s.","
+
+This program is a string manipulation program, which manipulates the input string and outputs a modified version of it. It uses various functions such as trgpune, getchar, znva and main to manipulate the string.",Close Enough.
+paul,1989,print fibonacci base 2 by simulating turing machine,"
+
+I don't know.",
+ovdluhe,1989,"monkey-typer following template, 'APE' identifiers","
+
+This program appears to generate a random string of characters based on the characters the user inputs. It also uses the C library string.h, which is used for string manipulation and other operations related to strings.",Wrong!
+robison,1989,"apl-expression interpreter (binary), written in C--","
+
+This program is a C program that implements a simple calculator. It takes input from the user, performs operations on it, and prints out the result. It can do basic arithmetic operations such as addition, subtraction, multiplication, and division, as well as parentheses for order of operations.",Wrong!
+jar.2,1989,"lisp interpreter, compressed","
+
+This program appears to be a Lisp interpreter written in C. It defines various functions related to Lisp operations such as <, +, -, *, car, cdr, cons, t, quote, lambda, defun, if, equal, and more. It also defines main() which prints out XLISP 4.0 and calls the main() function again.",Close enough.
+fubar,1989,"self-reconstructing, recompiling factorial program","
+
+This program is a recursive C program that computes the factorial of a given number. It uses the #define directive to define QQ and TT as constants and cc as a main function. The program then uses the ouroboros and x directives to create a loop that reads input from stdin, checks if the input is either QQ or TT, and if so, it prints out a corresponding output. Finally, the program uses the zxc directive to create a shell script that executes the program with the given number as an argument.",Close enough.
+jar.1,1989,"char*_=""Hello world.\n"";","
+
+This program creates a character pointer variable called _ and assigns it the value of the string ""Hello world.\n"".",Close enough.
+rince,1993,"game state machine language, comes with a number of games","
+
+This program creates a graphical game based on the given input. It reads from a file and uses C language constructs such as curses, setjmp, and sys/time, to create a game with a graphical interface.",Close enough
+lmfjyh,1993,"source is the filename, prints value of __FILE__","
+
+I don't know.",
+ant,1993,egrep utility with Posix-like documentation,"
+
+This program appears to be a search tool for finding patterns in given files. It looks for a given pattern in the files and returns any lines that match the pattern.",Close enough.
+vanb,1993,calculator that prints in octal,"
+
+I don't know.",
+jonth,1993,game of Tetris,"
+
+This program appears to be a game written in C. It looks like it involves moving blocks and assembling them in certain ways. It also looks like it keeps track of the user's score and level.",Close enough.
+ejb,1993,tower of Hanoi and patience pizzle,"
+
+This program prints out the input to the program as a string with some modifications to the characters based on the values passed in as parameters.",Wrong!
+schnitzi,1993,answers questions about English text in a file,"
+
+I don't know.",
+dgibson,1993,plays the game of like using cpp,"
+
+This program is an implementation of Conway's Game of Life. It uses several macros to define the rules and behavior of the game. The program prints out the game board according to the provided rules, and can be used to simulate the game.",Close enough.
+cmills,1993,X11 program that shatters and bounces windows,"
+
+This program appears to be a window animation program that creates random windows on the screen, and then animates them to move and resize on the screen.",Close enough.
+plummer,1993,prints numbers up to a given value,"
+
+I don't know.",
+leo,1993,game of mastermind (cows & bulls),"
+
+This program appears to be generating a random number and testing whether it matches a predefined value. It then prints out the result of the test.",Close Enough!
+shapiro,1994,print time of day on an tty,"
+
+I don't know.",
+westley,1994,Adventure/Dungeon like game played via the C pre-processor,"
+
+I don't know.",
+schnitzi,1994,flips stdin along a diagonal (source mirrored along diagonal),"
+
+I don't know.",
+weisberg,1994,prints prime numbers,"
+
+I don't know.",
+smr,1994,world's smallest self reproducing program,"
+
+I don't know.",
+horton,1994,Plot cubic equations on a tty,"
+
+This program appears to be generating a graphical representation of a quadratic equation, using a character array. It creates a grid of 96 x 160 characters, and then uses the argv parameters to calculate the equation. It then sets the characters in the grid to form the representation of the equation.",Wrong!
+dodsond2,1994,Hunt the Wumpus (gziped source),"
+
+This program is a text-based game called ""Hunt the Wumpus"". The player is placed in a room and has to navigate a maze of 30 differently-connected rooms in order to shoot an arrow at the Wumpus. Along the way, the player can pick up arrows, avoid pits, and battle a robber. If the player is successful, they will receive points.",Close enough.
+tvr,1994,interactive fractals for the X Window System,"
+
+I don't know.",
+ldb,1994,print a random line from stdin,"
+
+I don't know.",
+dodsond1,1994,plays a game of othello,"
+
+This program appears to be a game where the user must guess a given pattern of characters. The program defines various functions and variables necessary for the game, such as a board, a set of characters, and a number of guesses allowed. The program then prompts the user to input their guess, and checks whether the guess matches the pattern. If the guess is correct, the program ends, otherwise it prompts for another guess.",Wrong!
+imc,1994,print a random n by n magic square,"
+
+This program generates a sliding puzzle with a given size (defaults to 5x5) with numbers from 1 to NxN, and then shuffles the numbers randomly.",Close enough.
+makarios,1995,Emits the base 8 representation of prime palindromic in base 8,"
+
+I don't know.",
+heathbar,1995,16 bit addition the easy/hard way,"
+
+I don't know.",
+garry,1995,Environment-expansion and binary output via escaped env vars,"
+
+I don't know.",
+schnitzi,1995,"Find divisors: where a core dump is a feature, not a bug","
+
+I don't know.",
+esde,1995,Searches for words in a file which have the same Soundex code,"
+
+This program is a C program that performs a substitution cipher on a string. It takes the characters in the string and replaces them with different characters using an array called ""atoi"".",Wrong!
+spinellis,1995,Abusing the rules,"
+
+This program is a C program that reads in characters from standard input and prints out characters to the console. It uses a function called b() to read a character and returns an integer based on the character read in. It also uses a function called n() to calculate a character based on the integer returned from b() and prints the character out. Finally, it uses a while loop to read and print characters until a '$' character is read in.",Wrong!
+dodsond2,1995,Interactive 3D Maze,"
+
+This program is a C implementation of a maze game. It uses the time.h, curses.h and rand() library commands to generate a random maze. The program then uses getchar() to take user input as the user navigates through the maze. If the user successfully navigates the maze, they will receive a ""You Escaped!"" message.",Wrong!
+cdua,1995,Generate a maze on the scren and then solve it,"
+
+I don't know.",
+dodsond1,1995,"Text to ""Pig Latin"" translator","
+
+I don't know.",
+savastio,1995,Infinite-precision factorial calculator,"
+
+This program appears to print a 4-digit number composed of the characters in the string ""8)>l""9!.)>vl"", followed by the number entered by the user. It then prints the remainder of the 4-digit number in 19-columns.",Wrong!
+leo,1995,Output interesting patterns and cycles in PostScript,"
+
+This program generates a random maze.",Wrong!
+vanschnitz,1995,Towers of Hanoi via the C pre-processor,"
+
+I don't know.",
+nathan,1992,obfuscation by (trivial) encryption (source not exported),"
+
+This program prints out a warning message about the US Munitions List from the ITAR and provides instructions for how to obtain a copy of the program.",Wrong!
+kivinen,1992,"X11 space invaders, dropout and knockout games","
+
+I don't know.",
+ant,1992,make utility,"
+
+This program appears to be a makefile program that is used to compile software. It checks for existing files and executes commands based on the input provided.",Close enough
+marangon,1992,game to balance a grid of digits to all 5's,"
+
+This program is a game of tic-tac-toe that is played in a terminal window. It allows the user to move around the game board with the keys l-h-k-j, and use the + and - keys to increment and decrement the values. The user can quit the game by pressing Q.",Wrong!
+gson,1992,anagram generator,"
+
+I don't know.",
+westley,1992,print ASCII world map and mark a location by lat/long,"
+
+This program is a C program that prints ""Hello, World!"" to the console.",Wrong!
+albert.fix,1992,,"
+
+This program is used to calculate the base of a number from its digits. It takes in the number as a command line argument and calculates the base of the number.",Wrong!
+adrian,1992,grep-like utility using a state machine transition language,"
+
+This program appears to be a text-based game involving the C programming language. It appears to involve the use of various functions and variables, as well as the use of the strncpy, strlen, and strchr functions. It also appears to involve the use of structs and other data structures. It is not something that I can explain in full, but it appears to involve the use of strings, characters, and other data types in order to create a game.",Wrong!
+vern,1992,plays chess,"
+
+I don't know.",
+buzzard.1,1992,"print factorial, gcd or prime test using a Babbage-like engine","
+
+I don't know.",
+albert,1992,factors multi-precision numbers with factors < MAX_LONG,"
+
+This program is a C program that implements the Josephus problem. It is a problem where in a circle of n people, every mth person is eliminated until there is only one person left. The program takes the values of n and m as input and outputs the position of the last person remaining.",Wrong!
+buzzard.2,1992,forth-like stack machine,"
+
+I don't know.",
+lush,1992,"prints ""Hello, World"" using error messages","
+
+I don't know.",
+imc,1992,Mandelbrot/Julia drawer,"
+
+This program appears to be a C program that is used to generate a fractal image. It uses long data types, multiple functions, and various library functions to generate the fractal image.",Close enough.
+dgbeards,2001,Plays suicide chess,"
+
+This program appears to be a chess playing program. It includes functions to detect the pieces on the board, and to move the pieces based on the rules of chess.",Wrong!
+kev,2001,A Pong game across network,"
+
+This program appears to be a game written in C programming language. It sets up a game window and two paddles, one on the left and one on the right. The goal is to use the paddles to bounce a ball back and forth, and if the ball goes past a paddle, the player loses a point. The program also appears to be set up to be a two-player game, with the ability to connect to another player over a network.",Close enough.
+rosten,2001,Makes X mouse pointer have inertia or anti-inertia,"
+
+I don't know.",
+herrmann2,2001,"A SIRDS/3D generator, the source is SIRDS/3D itself","
+
+I don't know.",
+westley,2001,"Sorts/scrambles, outputs as text/punch-cards","
+
+This program appears to be a cipher or obfuscation program that encodes or decodes strings of characters. It uses a combination of functions and macros to encode and decode strings of characters.",Close enough.
+jason,2001,An Adventure-like game,"
+
+I don't know.",
+bellard,2001,A C subset programming system for x86,"
+
+This program appears to be a compiler, which takes in a C program and then compiles it into a binary file.",Wrong!
+herrmann1,2001,A Turing machine using preprocessor,"
+
+This program appears to be a Turing Machine simulation written in C. It defines various variables and functions, then uses them to read in a Turing Machine program and execute it. It also prints out the state of the Turing machine at each step.",Close enough.
+williams,2001,Plays X-based missile command,"
+
+This program appears to create a game in which a player is trying to score points by shooting projectiles at a series of falling targets. The code uses the X11/Xlib libraries to draw graphics to the screen. The game keeps track of the players score and the current level they are on.",Close enough.
+coupard,2001,Outputs current time as a sound file,"
+
+This program prints the current time in a specific format.",Wrong!
+cheong,2001,Computes arbitrary-precision square root,"
+
+I don't know.",
+ctk,2001,A driver game,"
+
+I dont know.",
+ollinger,2001,Prints primes with a sieve graph,"
+
+This program is printing out a series of characters and numbers. The program is using the #define macro to define variables and functions. It is also using printf to print out the characters and numbers. The program is utilizing a for loop to iterate through the characters and numbers.",Wrong!
+anonymous,2001,"optimizing dynamic binary translator, x86 progs on any host","
+I don't know.",
+schweikh,2001,Shell glob matcher,"
+
+I don't know.",
+grothe,2006,Plays audio using a monitor,"
+
+I don't know.",
+toledo1,2006,Solve the knight chess problem,"
+
+I don't know.",
+sloane,2006,Animated donut,"
+
+This program is a 3D-modelling program, which creates images by plotting points in 3D space and then converting them to 2D images.",Wrong!
+sykes1,2006,Bedlam cube solver,"
+
+This program is creating a cube gif image from the given data. It uses the given data to create the image by using the C programming language.",Wrong!
+hamre,2006,A calculator for rational numbers,"
+
+I don't know.",
+monge,2006,Graphical fractal generator,"
+
+I don't know.",
+stewart,2006,IFS fractal generator,"
+
+I don't know.",
+borsanyi,2006,Email address to gif image,"
+
+I dont know.",
+meyer,2006,A two player sudoku like game,"
+
+This program appears to be a program for a game of tic-tac-toe. It contains code for the game logic, for drawing the game board, and for allowing a user to play against a computer.",Wrong!
+toledo3,2006,An X11 chess game,"
+
+This program creates a game of chess. It uses the X11 library to create a window that displays the chess game. It also has logic to handle the different pieces, their movements, and the end of the game.",Close enough.
+toledo2,2006,An 8080 emulator,"
+
+I don't know.",
+sykes2,2006,A clock in one line,"
+
+I don't know.",
+night,2006,A maze game,"
+
+I dont know.",
+birken,2006,Circuit Simulator,"
+
+I don't know.",
+dhyang,2000,Saitou Hajime image that prints a prog that prints a prog ...,"
+
+I don't know.",
+natori,2000,Phase of the moon,"
+
+I don't know.",
+thadgavin,2000,Prints a dazzeling moving image under multiple interfaces,"
+
+This program is a graphics animation program. It uses various mathematical functions to create the animation, such as sin, sqrt, and atan2. It also uses the __DJGPP__, SDL, and curses libraries to display the animation.",Close enough.
+rince,2000,Plots the positions of the four Galilean moons of Jupiter,"
+
+This program draws an arc on an X11 window using the C programming language. It also calculates the current time and uses it to draw the arc with a particular angle. The program uses various functions from the X11 library, math library and time library.",Wrong!
+bellard,2000,Prints M6972593 (2^6972593-1) by Modular Fast Fourier Transform,"
+
+This program is calculating a number, which is then printed out. It is using a combination of bitwise operations, modular arithmetic, and a loop to do the calculation.",Close enough.
+tomx,2000,"C source, shell program and Makefile","
+
+This program prints ""Hello, world"" to the console.",Wrong!
+anderson,2000,ASCII to semaphore code convertor,"
+
+This program is a C program which is used to perform some type of string manipulation. It is not clear what the exact purpose of this program is, so I cannot answer your question. I don't know.",Wrong!
+bmeyer,2000,An image compressor,"
+
+This program is a C program that implements the Sieve of Atkin algorithm, a prime number generating algorithm. It takes two command line arguments and prints out the prime numbers up to the arguments.",Wrong!
+primenum,2000,Source with English words that looks like a prime tester,"
+
+This program is a prime number generator. It takes an integer from the command line and prints all the prime numbers up to that number. The program uses the modulo operator to check if a number is divisible by any of the other numbers that are smaller than it. If it is, it sets the flag to false, and if not, it prints the number.",Close enough.
+jarijyrki,2000,An X-based spreadsheet program with graphing features!,"
+
+This program is likely a graphical user interface (GUI) written in the C programming language. It includes functions for drawing shapes on the screen, such as rectangles and arcs, as well as for reading and displaying text. It also includes functions for handling user input, such as mouse clicks and key presses.",Wrong!
+schneiderwent,2000,Prints the aproximate time in words,"
+
+This program is a clock that displays messages at certain times. It reads data from a file and uses it to generate the messages that are displayed. It also uses setjmp and longjmp functions to store and jump to different points in the program.",Close enough.
+dlowe,2000,A dc-style calculator that uses embedded Perl,"
+
+I don't know.",
+briddlebane,2000,Verbally abuses the user,"
+
+I don't know.",
+robison,2000,Highly Compressed Program for Playing Hygienic Checkers,"
+
+This program appears to be a C program that implements a game. It appears to be a game of tic-tac-toe, where the user plays against a computer. The program is complex and I don't understand all of the details, but it appears to use functions such as printf(), scanf(), and rand() to interact with the user, as well as functions like for(), if(), and while() to control the game's logic.",Wrong!
+diels,2019,,"
+
+This program appears to be a cryptographic function. It uses macros and variables to encrypt data, which is then stored in a variable called 'w'.",Wrong!
+yang,2019,Text scrambler,"
+
+This program is a C program that implements a Quicksort algorithm. It uses the quicksort algorithm to sort an array of structs containing x, y, and z values. It also includes a main function that can be used to read input from a file and print out the sorted array.",Wrong!
+duble,2019,Collaborative graphics editor,"
+
+I don't know.",
+burton,2019,Word count,"
+
+I don't know.",
+mills,2019,Machine Learning on text,"
+
+This program appears to be a C program that generates random characters using a Markov chain. It also appears to track the number of characters generated and save the results to a file.",Close enough.
+adamovsky,2019,Unlambda interpreter,"
+
+I don't know.",
+karns,2019,Breadth-first search on text,"
+
+I don't know.",
+poikola,2019,"SHA, Prime, Fibonacci","
+
+This program appears to be a cryptographic program that takes in a user input string and encrypts it. It then prints out the encrypted string using the printf function.",Wrong!
+lynn,2019,Haskell compiler,Error: Too many tokens,
+dogon,2019,X11 Golly game of Life,"
+
+I don't know.",
+giles,2019,WAV reverberator,"
+
+This program is a C program which implements a reverb effect by calculating a convolution of the audio signal with an impulse response. It takes in the audio signal from a file, processes it, and writes the output to another file.",Close enough.
+ciura,2019,Pangram generator,"
+
+This program looks to be a program to print out words from a dictionary based on an argument or two.",Wrong!
+endoh,2019,Backtrace quine,"
+
+This program is a C program that implements a function called ""f"" which is used to determine the outcome of certain logic operations. The function contains several sub-functions such as x0a, x20, x21, x22, etc. which are used to evaluate the outcome of the logic operations. The function also contains several variables such as r, t, h, q, and n that are used to store values used in the logic operations.",Wrong!
+kurdyukov3,2020,Letter permuter,"
+
+This program generates random text from a given input. It reads characters from the input and randomly selects and prints characters from the input until it reaches the end.",Close Enough.
+kurdyukov4,2020,Markov chain text generator,"
+
+I don't know.",
+endoh2,2020,Star Wars crawler,"
+
+This program is a game written in C. It uses complex numbers and various functions to generate a game board and allow the user to navigate it. The game also has a few characters from Star Wars movies referenced in the code.",Close enough.
+endoh3,2020,ASCII clock,"
+
+This program prints out a pattern to the console.",Close enough.
+kurdyukov2,2020,Image segmenter,"
+
+This program is a JPEG compressor written in C programming language. It includes various functions such as read_header, create_compress, start_compress, b_scanlines, finish_compress, destroy_compress, stdio_dest, set_defaults, set_quality, etc. which are used to compress an image file in JPEG format.",Wrong!
+yang,2020,PIN-protected program generator,"
+
+This program creates a random string of characters. It uses random numbers from the rand() function to create a random string of characters from an array of characters stored in the variable 'n'. It then uses the time() function to generate a seed for the random number generator. It also uses the atoi() and printf() functions to output the random string to the terminal.",Wrong!
+otterness,2020,MIDI improver,"
+
+I don't know.",
+burton,2020,"Byte to binary, no loops, 1-liner","
+
+I don't know.",
+ferguson2,2020,Enigma machine,"
+
+This program implements a cipher called the Enigma machine. It takes in a plaintext string and outputs the ciphertext using an encryption algorithm. It also allows the user to set the variables used for the encryption process.",Close enough!
+endoh1,2020,Minesweeper solver,"
+
+This program is a Minesweeper game. It is written in C programming language, using ncurses and time.h libraries. It also contains IOCCC (International Obfuscated C Code Contest) references.",Wrong!
+kurdyukov1,2020,MD5 checksum,"
+
+This program reads a character from the standard input and prints out a 32x33 matrix of characters as the output.",Wrong!
+giles,2020,DTMF encoder/decoder,"
+
+This program implements the Dual-Tone Multi-Frequency (DTMF) signaling system. It reads a WAV file containing the audio signal of the DTMF tone, and decodes it into the corresponding number.",Close enough.
+tsoj,2020,Asteroids,"
+
+This program appears to be a game with a character that can be controlled by the user (using the 'w', 'a', 's', and 'd' keys). The goal of the game appears to be to avoid obstacles (represented by 'o', '0', 'O', and 'O') while collecting points (represented by '^').",Close enough.
+ferguson1,2020,Snake game,"
+
+This program is a game written in the C programming language. It uses the ncurses library to draw the game window, and the user uses the keyboard to control the player in the game. The program also includes a number of constants, which control the size of the game board, the number of enemies, the speed of the enemies, and the speed of the player. The goal of the game is to collect all the coins and avoid the enemies.",Close enough.
+carlini,2020,printf machine,"
+
+This program is printing a string of characters to the console using format strings. It does this by manipulating the stack by overwriting values to get the desired output.",Close enough.
+vokes,2018,Computing strongly connected graph components,"
+
+This program is a graph algorithm that reads in a series of edges and vertices from a text input and creates an adjacency list from them. It then uses a variety of algorithms to traverse the graph and find the shortest path between two nodes.",Wrong!
+endoh2,2018,Monty-Pythonesque animated quine,"
+
+I don't know.",
+burton1,2018,Hex dumper,"
+
+I don't know.",
+yang,2018,Text rotator and shifter,"
+
+I dont know.",
+algmyr,2018,Converts text to sound using font as spectrogram,"
+
+This program is a sound synthesizer that reads the sound data from a file and produces a different sound based on the parameters that are passed to it. It uses functions such as malloc() and fread() to allocate memory and read from the file, and also uses the standard C library functions such as printf(), atoi(), and getc() to process the data. Finally, it uses fwrite() to write the processed data to the output file.",Close enough.
+mills,2018,PDP-7/11 simulator,"
+
+This program appears to be a program that reads user input and performs various operations based on the input. It appears to be part of a larger program, and I cannot determine its exact purpose without more information.",Wrong!
+endoh1,2018,Animated GIF from text,"
+
+I dont know.",
+burton2,2018,Tokenize and count,"
+
+I don't know.",
+poikola,2018,Ursa Major ASCII animation,"
+
+This program is a C program that prints out a string of characters and other variables depending on the date. It also uses math functions to calculate values and print out characters.",Close enough.
+bellard,2018,Image compression demo,Error: Too many tokens,
+hou,2018,Converter of JSON to SVG pie chart,"
+
+This program renders an HTML chart from JSON data.",Close enough.
+anderson,2018,Visualizer of typographic rivers,"
+
+I don't know.",
+giles,2018,SDL falling sand,"
+
+This program initializes the SDL library and then it reads a file called sand.txt. It then creates a 2D array named P of size 4018 and stores the contents of sand.txt in it. After that, it creates a window of size 800x480 and a renderer. It then reads the contents of the array P and renders it in the window. Finally, it delays the execution for 40 milliseconds and then destroys the window and renderer.",Close enough.
+ciura,2018,Strunk & White checker,"
+
+This program is a C program that reads in two values from the keyboard and then runs a loop based on those values. It then calls a function called V() to do some calculations and then prints out the result of the calculations.",Wrong!
+ferguson,2018,Dawkins' weasel simulator,"
+
+This program appears to generate a random string of characters to match a given target string. It also allows for custom mutation rates and keyboard layouts.",Close enough.
+hamaji,2011,Paint by number puzzle,"
+
+This program is a game of Minesweeper. It uses the arrays C, R, B, O, Z, S, and T to store the game state, and uses the variables W, H, J, K, r, i, j, c, q, t, x, y, k, and v to store the game state. It reads the input and stores it in the R array. It then uses the D and L functions to set the values of the other arrays to represent the game state. Finally, it prints the game state to the screen.",Wrong!
+vik,2011,Tracker player,"
+
+This program reads a file and calculates the sound level of the file. It uses the Fast Fourier Transform (FFT) algorithm to analyze the sound file and then computes the sound level based on the results of the FFT.",Wrong!
+toledo,2011,Dual player tank shooter game,"
+
+This program appears to be a program that displays a graphic on an X11 window. It makes use of various C language constructs, such as the XDrawLine and XChangeGC functions, as well as some other functions and variables related to graphics. It also appears to use some randomization, as well as data structures like arrays and structs.",Wrong!
+eastman,2011,Bouncing Ball in ANSI Graphics,"
+
+This program prints a pattern to the screen which varies with time. It uses ANSI escape codes to control the formatting of the pattern and to move the cursor around.",Close enough.
+dlowe,2011,Neural network classifier,"
+
+This program reads in data from a directory, processes it, and stores it in an array. It then performs calculations on the data and prints out the result in a certain format.",Wrong!
+borsanyi,2011,Bar graph plotter,"
+
+This program is a simple tool to quickly analyze data. It takes in data from the user and calculates the mean, median, and mode of the data set.",Wrong!
+zucker,2011,Text raytracing,"
+
+This program is a ray tracer, which is used to generate an image of a 3D scene. It uses a technique called ray tracing to simulate the interaction of light with objects in the scene. The program reads in a scene description and uses the information to generate an image of the scene.",Close enough.
+hou,2011,Scientific calculator,"
+
+This program is a calculator program written in C that can perform basic calculations such as addition, subtraction, multiplication, division, and other functions such as square root, exponential, tangent, and logarithmic functions. It also provides a user interface to enter the calculations.",Close enough.
+akari,2011,Downsampler with 3 embeded programs,"
+
+This program reads an input file and writes to an output file in a specified format. It reads a file containing a header (k, A, i, r) and a set of bytes and writes the bytes to the output file in a modified format. The program also performs a bitwise XOR operation on the bytes in the input file.",Wrong!
+blakely,2011,Life/reverse life,"
+
+This program is a game of life simulation written in C. It takes in user input and uses it to generate a grid of cells that evolve according to a set of rules. The output is a graphical representation of the grid that changes over time.",Close enough.
+fredriksson,2011,Aproximate grep,"
+
+I dont know",
+richards,2011,JIT dc,"
+
+This program is a compiler for a small programming language. It reads in an input from stdin and compiles it into an executable. It uses a set of functions and data structures to parse the input and generate the executable.",Wrong!
+goren,2011,Magritte tribute,"
+
+This program appears to be a code snippet that creates a function in the C programming language. The purpose of the function is not clear, however it appears to be manipulating strings and characters.",Wrong!
+konno,2011,QWERTY keyboard position identifer,"
+
+I don't know.",
+lycklama,1985,"heavily cpped with o_oo identifiers, scrolls text right","
+
+This program prints out a triangle of asterisks (*) of varying sizes depending on the value of the constant __o.",Wrong!
+august,1985,"cpp obfuscated, compressed, main-recursive primes in binary","
+
+This program prints out the binary representation of a given number.",Wrong!
+shapiro,1985,"two defines, one 7-liner, results in a maze","
+
+This program generates a random maze of size C x R (where C and R are variables) and prints out the maze.",Close enough.
+sicherman,1985,rot13 with strange #defs that create comment headers etc.,"
+
+I don't know.",
+applin,1985,"one-liner to print hello world, with execlp","
+
+I don't know.",
+anonymous,1984,"prints hello world, where read is write","
+
+I don't know.",
+laman,1984,"prints spiralling numbers, laid out in columns","
+
+I don't know.",
+mullender,1984,hardcoded vax and pdp-11 code to move :-) across the screen,"
+
+I do not know.",Wrong!
+decot,1984,"prints garbage, weird cpp defines (keywords for others)","
+
+I don't know.",
+dg,1990,rot13 done with strange cpp macros,"
+
+I dont know",
+dds,1990,"basic interpreter, heavily compressed","
+
+I don't know.",
+tbr,1990,"simple compressed shell, silly layout","
+
+This program is a shell script that executes commands with the use of pipes, forks, and other system calls. It uses system calls such as chdir, pipe, and dup2 to execute commands with the given arguments.",Close enough.
+westley,1990,"poetic exchange between lovers, prints ""luvs me, luvs not""","
+
+I dont know.",
+scjones,1990,trigraph-abusing self-reproducing program,"
+
+This program creates a source code file for a C program. It includes header files, defines macros, and prints out the main function as well as the closing brackets for the program. It also includes comments to explain the program's purpose.",Wrong!
+pjr,1990,"the quick brown fox... cppd, structs of functions","
+
+This program prints out the alphabet in reverse order.",Wrong!
+cmills,1990,squished blackjack game,"
+
+This program is a card game written in C language. The program creates a 52-card deck and deals out cards from the deck, based on the user's input. The game is a simplified version of Blackjack, where the user attempts to get as close to 21 as possible without going over. The player can also get a score for having two of the same card.",Close enough.
+stig,1990,nested-comment tester (all on command line),"
+
+I don't know.",
+baruch,1990,short prog to solve N-queens problem,"
+
+This program is a C implementation of a game of 'Q'. It takes an input from the user, stores it in the variable 's', and then uses a for loop to set up a game board. The board is represented by an array 'a', and the program uses the 'scanf' and 'printf' functions to interact with the user. It then uses the values of 'i', 'j', 'k', 'l', and 'v' to update the game board and check for a win condition.",Close enough.
+jaw,1990,compress & atob standins,"
+
+This program is a decompressor for an algorithm called ""LZW"" (Lempel–Ziv–Welch). It takes an input of compressed data and decompresses it.",Close enough.
+theorem,1990,"numerically solves the equation y'=f(x,y)","
+
+This program is a sorting algorithm that sorts an array of 500 elements of 99 characters each using Shell Sort. It also includes a function that computes the value of a mathematical expression.",Wrong!
+bas2,1998,determines the size of stdin under IOCCC sizing rules,"
+
+I don't know.",
+dloweneil,1998,A very addictive ASCII poot game,"
+
+This program is a C implementation of the classic game Tetris. It uses the curses library to create a console window and manages the game logic, pieces, score, and other aspects of the game.",Close enough.
+schweikh1,1998,Tests to see if your compiler and headers are standard,"
+
+This program appears to be a C program that reads files and prints out the contents of those files. It also appears to be using the preprocessor to define macros.",Wrong!
+bas1,1998,Outputs a gziped 3D beam maze in Postscript,"
+
+I don't know.",
+schnitzi,1998,Prints a C program that sorts arguments using strange functions,"
+
+This program is a C program that implements a sorting algorithm. It sorts an array of integers using a modified version of the bubble sort algorithm. The program uses various functions to compare and swap elements in the array, and the main function uses a loop to call each of the functions until the array is sorted.",Close enough.
+dorssel,1998,ASCII / Morse code translator,"
+
+I don't know.",
+schweikh2,1998,Prints random 0's and 1's; causes some gcc's as passes to choke,"
+
+I don't know.",
+dlowe,1998,Pootifies stdin (useful to view Microsoft html files),"
+
+This program is a program to convert a string of text to lowercase or uppercase depending on the case of the first letter. It does this by comparing each character to the corresponding character in the ""poot"" and ""pootpoot"" strings, then printing the result.",Wrong!
+fanf,1998,Translates Lambda expressions into combinator expressions,"
+
+This program is a Lisp interpreter written in C. It takes a Lisp expression as input and evaluates it based on the predefined functions, variables and operators.",Wrong!
+tomtorfs,1998,CRC generator,"
+
+This program is an encryption algorithm that takes in 7 user-defined parameters and encrypts the contents of a file.",Wrong!
+schweikh3,1998,Finds duplicate files that waste disk space,"
+
+This program is a C program that prints the links of a directory tree. It takes in an input of a directory tree and prints all the links of the directory tree.",Wrong!
+chaos,1998,Rotates and zooms an object using ASCII graphics,"
+
+This program is a C program that displays a graphical representation of a set of numbers from a text file. It uses the curses library to draw the lines on the screen and uses the keyboard input to rotate the points around the origin.",Close enough.
+banks,1998,A flight simulator!,"
+
+I don't know.",
+df,1998,A word guessing game,"
+
+I dont know",
+dds,1991,"basic compiler, heavily compressed","
+
+This program reads a file, manipulates its contents, and writes the result to a new file.",Wrong!
+cdupont,1991,prints a message without vowels,"
+
+I don't know.",
+fine,1991,rot13s lines of input,"
+
+I don't know.",
+rince,1991,"game with sprites, boulders, dimonds, and keys","
+
+I dont know.",
+ant,1991,compressed vi-like editor,"
+
+This program is a text editor written in the C programming language. It allows a user to edit and save text files with the use of keyboard commands.",Close enough.
+westley,1991,"plays tic-tac-toe, compile output for next move, prints board","
+
+I don't know.",
+davidguy,1991,"plays life on a root window, doesn't need Xlib or include files","
+
+This program appears to be a cryptographic algorithm. It looks like it is used to encrypt data by manipulating bits in memory.",Wrong!
+buzzard,1991,walk thru a maze from a first person point of view,"
+
+This program reads a file and prints a character-based diagram of it.",Wrong!
+brnstnd,1991,sorta stack language,"
+
+This program looks like an obfuscated C program. It is difficult to understand what this program does without more information. I don't know.",Wrong!
+gandalf,1996,Displays the ASCII and 8 bit character tables,"
+
+I dont know.",
+schweikh1,1996,Calculates Easter dates from 1582 to 2199 AD,"
+
+This program prints the date (in a specific format) of a certain given year (between 1582 and 2200).",Close enough.
+westley,1996,Shows the time on clock with a configurable face and style,"
+
+I don't know.",
+jonth,1996,X based dual player tic-tac-toe game,"
+
+This program appears to be a program written in C that creates a window with a graphical user interface. It uses the X11 library to create the window and set its attributes. It also sets up a background pixmap and maps it to the window. Finally, it maps two ""II"" images to the window.",Wrong!
+rcm,1996,Gunzip equivalent,"
+
+This program is a hierarchical binary Huffman coding algorithm. It is used for compressing data to reduce memory used for storage and transmission. It works by assigning a code to each symbol based on its frequency in the data. The most frequent symbols are assigned shorter codes and the least frequent symbols are assigned longer codes. The codes are then used to represent the data in a more compact form.",Close enough.
+schweikh2,1996,Search for a limited class of expressions that equal a constant,"
+
+I don't know.",
+august,1996,Subset of C compiler and byte code interpreter,Error: Too many tokens,
+huffman,1996,Braille to ASCII and vice versa,"
+
+This program appears to be written in C language, but it is incomplete and contains syntax errors, so it is not possible to determine what it does.",Wrong!
+eldby,1996,Flying 3D spheres in an ASCII display,"
+
+This program is an implementation of ray-casting, which is a 3D rendering technique used to create a two-dimensional image from a 3D scene. It uses a set of coordinates to define a 3D space, and then casts a ray from the camera to each pixel in the image, checking for intersections with the objects in the scene. Based on these intersections, it creates a 2D image that represents the 3D scene.",Close enough.
+schweikh3,1996,Determins the memory allocation honesty of the OS,"
+
+This program is trying to allocate memory with the calloc and malloc functions. It also prints out the amount of memory it is trying to allocate, and whether or not it was successful. It also detects if the system is thrashing due to too much memory being used.",Close enough.
+dalbec,1996,Generator of strong probable-primes to a given base,"
+
+This program is a recursive implementation of the Quine-McCluskey algorithm, which is a method of simplifying Boolean equations.",Wrong!
+vince,2005,Rotating GL Cube demo,"
+
+This program is a C program that renders a 3D cube using openGL and GLX. It sets up the display window, creates a 3D cube, then rotates it and draws it repeatedly.",Close enough.
+vik,2005,Wolfenstein style graphics engine,"
+
+This program appears to be a game engine for a 2D game or animation. It creates the window and graphics context, initializes the variables, sets up the scene, and then continually updates the graphics based on user input.",Close enough.
+mynx,2005,Web browser,"
+
+I don't know.",
+anon,2005,Multi-dimensional sliding tile puzzle generator,"
+
+This program appears to be a game of sorts; it appears to print out a game board and accept user inputs to control a character on the board. It is difficult to determine the exact game being played without running it.",Close Enough!
+toledo,2005,Play chess,"
+
+I don't know.",
+klausler,2005,Anagram generator,"
+
+This program is a word generator that uses a dictionary file (dict.h) and an array of strings (x) to generate all the possible words of a given length (m) from the input words in the array (A). It uses a recursive algorithm to generate the words, and then prints them out.",Wrong!
+giljade,2005,2D sliding tile puzzle solver,"
+
+I don't know.",
+jetro,2005,Audio synthesizer,"
+
+This program is a synthesizer program written in C. It uses the SDL library to generate audio data for playback. The program includes macros, variables, and functions to produce sound based on two different sets of characters. The program processes the characters in two different ways, generating waveforms to produce sound. The program also utilizes sinusoidal functions to produce different sounds.",Close enough
+sykes,2005,Commodore PET emulator,"
+
+This program appears to be a Commodore Basic program, which is a programming language used on Commodore computers. It appears to be setting up a user interface with a command line, reading user input from the command line, performing various calculations and operations, and displaying output.",Close enough.
+timwi,2005,A BF lanaguage interpreter,"
+
+I don't know.",
+aidan,2005,Sudoku solver,"
+
+This program is a Sudoku solver. It is written in C and uses backtracking to solve the puzzle. It prints out the solution and the number of steps taken to solve the puzzle.",Close enough!
+chia,2005,Java parody,"
+
+I don't know.",
+persano,2005,Generates animated knots,"
+
+This program creates a graphical pattern by repeatedly writing characters to the standard output. It uses a set of functions and macros to read command line arguments, create a pattern, and write the output. The pattern is determined by the values provided for P and Q.",Close enough.
+mikeash,2005,Self-printing Common Lisp interpreter,"
+
+This program is a Lisp interpreter written in C. It reads Lisp expressions, evaluates them and prints the result. The program is designed to be used as a calculator, where it can evaluate arithmetic operations and manipulate strings.",Close Enough.
+boutines,2005,Voronoi diagram generator,"
+
+I don't know.",
+sds,2004,Space/tab/linefeed steganography,Error: Too many tokens,
+gavin,2004,Mini-OS,"
+
+This program appears to be a C program that implements an algorithm. It appears to be checking for certain values in a given array and performing certain operations on them. I don't know exactly what the program is doing or what the output of the program would be.",Wrong!
+burley,2004,A Poker game,"
+
+I don't know.",
+omoikane,2004,A CRC inserter,"
+
+This program reads a file and checks if it has a specific layout. If the layout is correct, it writes the file using a different layout. Otherwise, it prints an error message.",Wrong!
+newbern,2004,Renders arbitary bitmapped fonts,"
+
+I don't know.",
+schnitzi,2004,Editor animation,"
+
+This program is a game of ""Life"". It creates a grid of characters based on the user's input and simulates the rules of the game, with the characters changing according to the rules of Life.",Wrong!
+gavare,2004,A ray tracer,"
+
+This program is a pixel art generator that creates a PPM image of the given size (1024x768 in this case). The program uses a custom algorithm to generate the image, taking in parameters such as X, Y, A, J, K, L, M, N, O, and P. It then uses functions such as F, I, H, o, q, n, t, r, s, and main to calculate the Red, Green, and Blue values of each pixel in the image.",Wrong!
+jdalbec,2004,Conway's look'n'say sequence split into elements,"
+
+This program is a C program that creates a few data structures and functions to store and manipulate strings. It creates a structure called B, which holds a character pointer and an integer, and functions like BNew, BFree, BGet, and BPut to create, free, get, and put values into B. It also creates a structure called Br, which holds a pointer to a B structure, and functions like BrNew, BrFree, and BrPrint to create, free, and print values from Br. Finally, it creates functions like Dy and Sr to manipulate strings.",Wrong!
+arachnid,2004,Curses maze displayer/navigator with only line-of-sight visibility,"
+
+This program draws a maze and keeps track of the user's progress as they traverse it. It also calculates the total number of steps taken by the user and prints it out at the end.",Close enough.
+hoyle,2004,Curses based polynomial graphing with auto-scale,"
+
+I don't know.",
+kopczynski,2004,"OCR of 8, 9, 10 and 11","
+
+This program is printing out an integer on the screen that is 8 plus the modulo of the given input.",Close enough!
+vik1,2004,X Windows car racing game,"
+
+This program appears to be a C program for a game. It appears to be drawing shapes and setting parameters for the game such as speed, time, and high score.",Close enough.
+anonymous,2004,Rendering of a stroked font,"
+
+This program appears to be a C program that prints a 2D image on the command line. It uses the characters in the strings defined at the beginning of the program to construct the image.",Close enough.
+vik2,2004,Calculates prime numbers using only CPP,Error: Too many tokens,

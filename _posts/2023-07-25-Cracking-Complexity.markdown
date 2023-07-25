@@ -306,3 +306,7 @@ The research reaffirms that code obfuscation remains an enduring challenge, and 
 
 
 If you have any questions, suggestions, or would like to discuss further insights from this research, please feel free to contact me. I welcome your inquiries and look forward to engaging in meaningful discussions about code comprehension, AI language models, and the fascinating world of obfuscated C code.
+
+## Files
+1. [ioccc_winners.sqlite](https://github.com/nir-mo/ioccc-db)
+2. [CSV file with all the results](../assets/2023-07-25-Cracking-Complexity/reasearch_results_20_7_2023.csv) 
