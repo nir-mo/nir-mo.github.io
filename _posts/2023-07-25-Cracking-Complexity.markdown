@@ -2,14 +2,13 @@
 layout: post
 title:  "Cracking Complexity: How ChatGPT Unravels Obfuscated C Code from the IOCCC"
 date:   2023-07-25 14:37:21 +0300
-categories: AI Obfuscation Research
 tags: AI obfuscation ioccc langchain ChatGPT
 ---
 # Cracking Complexity: How ChatGPT Unravels Obfuscated C Code from the IOCCC
 
 ## Introduction
 
-Since the launch of [ChatGPT](https://chat.openai.com/), many questions have arisen regarding its ability to write code and, more importantly, to understand it. It appears that language models (LLMs) can comprehend complex code snippets, simplify them, and optimize their performance. Recently, I came across a [thread](https://news.ycombinator.com/item?id=34503233) discussing whether ChatGPT can understand obfuscated code, specifically C code, as it seems to handle https://obfuscator.io/ (JS code obfuscator) quite well.
+Since the launch of [ChatGPT](https://chat.openai.com/), many questions have arisen regarding its ability to write code and, more importantly, to understand it. It appears that language models (LLMs) can comprehend complex code snippets, simplify them, and optimize their performance. Recently, I came across a [thread](https://news.ycombinator.com/item?id=34503233) discussing whether ChatGPT can understand obfuscated code, specifically C code, as it seems to handle [https://obfuscator.io/](https://obfuscator.io/) (JS code obfuscator) quite well.
 
 During my time at [NDS](https://en.wikipedia.org/wiki/Cisco_Videoscape), I worked on an in-house code obfuscator project. It was a plugin built on top of [LLVM](https://llvm.org/), adding an obfuscation layer to C/C++ code. Since then, the field of code obfuscation has always fascinated me—how to create code that computers can read but is difficult for humans to decipher, and what characteristics make code "unreadable."
 The breakthrough of ChatGPT and other LLM systems raises many questions in this domain. Are they capable of understanding complex code? Can they put an end to code obfuscation techniques? What are the computational abilities of ChatGPT? Does it possess inherent computational capabilities, or is its understanding solely based on learned examples?
