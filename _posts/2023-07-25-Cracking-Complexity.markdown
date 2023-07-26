@@ -2,6 +2,7 @@
 layout: post
 title:  "Cracking Complexity: How ChatGPT Unravels Obfuscated C Code from the IOCCC"
 date:   2023-07-25 14:37:21 +0300
+categories: AI Obfuscation Research
 tags: AI obfuscation ioccc langchain ChatGPT
 ---
 # Cracking Complexity: How ChatGPT Unravels Obfuscated C Code from the IOCCC
@@ -24,7 +25,7 @@ The IOCCC provides a diverse array of obfuscated C code entries, each presenting
 
 
 
-Try to understand what the following C program does:
+For example, try to understand what the following C program does :)
 
 ```c
                                            #define r(R) R"()"
@@ -306,6 +307,10 @@ The research reaffirms that code obfuscation remains an enduring challenge, and 
 
 If you have any questions, suggestions, or would like to discuss further insights from this research, please feel free to contact me. I welcome your inquiries and look forward to engaging in meaningful discussions about code comprehension, AI language models, and the fascinating world of obfuscated C code.
 
-## Files
-1. [ioccc_winners.sqlite](https://github.com/nir-mo/ioccc-db)
-2. [CSV file with all the results]({% site.url %}/assets/2023-07-25-Cracking-Complexity/reasearch_results_20_7_2023.csv) 
+
+## Research Data Files
+As part of this research, I compiled and processed various data files to facilitate analysis and provide transparency. The two key files used throughout the research are:
+
+[ioccc_winners.sqlite](https://github.com/nir-mo/ioccc-db): This Github repository contains an SQLite database which contains a comprehensive collection of IOCCC entries, including the program name, year of participation, obfuscated C code, hints provided by the authors, and corresponding spoilers. The database serves as the backbone of the research, enabling easy access to the IOCCC entries for evaluation and comparison.
+
+[results.csv](/assets/2023-07-25-Cracking-Complexity/reasearch_results_20_7_2023.csv): This CSV file presents the outcomes of ChatGPT's analysis on the IOCCC entries. It includes the program name, year of participation, spoiler, and ChatGPT's responses. The CSV file captures the performance of ChatGPT in deciphering the obfuscated C code and forms the basis for success rate calculations and further examination of the results.
