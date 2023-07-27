@@ -11,9 +11,12 @@ image: /assets/images/sad_robot.jpg
 
 ## Introduction
 
-Since the launch of [ChatGPT](https://chat.openai.com/), many questions have arisen regarding its ability to write code and, more importantly, to understand it. It appears that language models (LLMs) can comprehend complex code snippets, simplify them, and optimize their performance. Recently, I came across a [thread](https://news.ycombinator.com/item?id=34503233) discussing whether ChatGPT can understand obfuscated code, specifically C code, as it seems to handle [https://obfuscator.io/](https://obfuscator.io/) (JS code obfuscator) quite well.
+Since the launch of [ChatGPT](https://chat.openai.com/), many questions have arisen regarding its ability to write code and, more importantly, to understand it. It appears that language models (LLMs) can comprehend complex code snippets, simplify them, and optimize their performance. Recently, I came across a [thread](https://news.ycombinator.com/item?id=34503233) discussing whether ChatGPT can understand [obfuscated code](https://en.wikipedia.org/wiki/Obfuscation_(software)), specifically C code, as it seems to handle [https://obfuscator.io/](https://obfuscator.io/) (JS code obfuscator) quite well.
 
-During my time at [NDS](https://en.wikipedia.org/wiki/Cisco_Videoscape), I worked on an in-house code obfuscator project. It was a plugin built on top of [LLVM](https://llvm.org/), adding an obfuscation layer to C/C++ code. Since then, the field of code obfuscation has always fascinated me—how to create code that computers can read but is difficult for humans to decipher, and what characteristics make code "unreadable."
+Code obfuscation is a technique to intentionally obscure the source code of a program, making it difficult for humans to comprehend while preserving its functionality, with the aim of protecting intellectual property and preventing reverse engineering.
+
+During my time at [NDS](https://en.wikipedia.org/wiki/Cisco_Videoscape), I worked on an in-house code obfuscator project. It was a plugin built on top of [LLVM](https://llvm.org/), adding an obfuscation layer to C/C++ code. 
+ Since then, the field of code obfuscation has always fascinated me—how to create code that computers can read but is difficult for humans to decipher, and what characteristics make code "unreadable."
 The breakthrough of ChatGPT and other LLM systems raises many questions in this domain. Are they capable of understanding complex code? Can they put an end to code obfuscation techniques? What are the computational abilities of ChatGPT? Does it possess inherent computational capabilities, or is its understanding solely based on learned examples?
 
 In this blog, I attempt to find answers to some of these questions by evaluating ChatGPT against numerous C code examples. I curated a dataset of 319 computer programs, all taken from the [IOCCC](https://www.ioccc.org/), to test if ChatGPT can comprehend each program's functionality. Subsequently, I explored specific cases that appeared intriguing for further in-depth research. 
@@ -23,7 +26,7 @@ In this blog, I attempt to find answers to some of these questions by evaluating
 
 The heart of the IOCCC lies in the concept of code obfuscation, a practice with essential roles in both software development and security. Deliberate obfuscation aims to protect intellectual property, prevent reverse engineering, and deter unauthorized tampering. Decoding such obfuscated code demands an innovative and unique approach, challenging traditional methods of comprehension used by human programmers and code analysis tools alike.
 
-The IOCCC provides a diverse array of obfuscated C code entries, each presenting unique obfuscation techniques and unconventional coding styles. This rich collection of complex and challenging code serves as an ideal dataset for evaluating ChatGPT's proficiency in deciphering intricate programming constructs and recognizing obfuscation patterns. By subjecting ChatGPT to the IOCCC's repertoire of enigmatic code snippets, this blog post seeks to explore the AI language model's abilities in tackling real-world challenges faced by developers dealing with code obfuscation.
+The IOCCC provides a diverse array of obfuscated C code entries, each presenting unique obfuscation techniques and unconventional coding styles. This rich collection of complex and challenging code serves as a pretty good dataset for evaluating ChatGPT's proficiency in deciphering intricate programming constructs and recognizing obfuscation patterns. By subjecting ChatGPT to the IOCCC's repertoire of enigmatic code snippets, this blog post seeks to explore the AI language model's abilities in tackling real-world challenges faced by developers dealing with code obfuscation.
 
 
 
@@ -247,7 +250,7 @@ print(endoh2['Result'].values[0].strip())
 
     This program is an implementation of an International Obfuscated C Code Contest (IOCCC) challenge from 2013. It reads an input string from the keyboard and prints out a series of characters based on the input string.
 
-This recognition reveals a significant clue that ChatGPT was indeed trained on data encompassing obfuscated entries, making it familiar with the complexities and patterns of the IOCCC codebase.
+This recognition reveals a significant clue that ChatGPT was indeed trained on some of IOCCC entries, so it's making ChatGPT familiar with those obfuscated programs.
 
 
 Another compelling case study is the examination of `westley/1988` a relatively short and deterministic program that calculates Pi. 
@@ -294,9 +297,14 @@ __Providing Simple Tools to Improve Results__:
 As ChatGPT navigates the complexities of obfuscated C code, providing supplementary [tools](https://python.langchain.com/docs/modules/agents/tools.html) and [agents](https://docs.langchain.com/docs/components/agents/) can be instrumental in enhancing its performance. Simple tools like a [C-Preprocessor](https://medium.com/@1034/worst-abuse-of-the-c-preprocessor-ioccc-winner-1986-8ae0218de83f) or a C beautify tool can help streamline code analysis by reducing redundancies, optimizing code readability, and potentially aiding ChatGPT in better understanding the underlying logic. These auxiliary tools can act as valuable aids, empowering ChatGPT to navigate intricate code constructs with increased accuracy.
 
 __Comparing the Results Against Other LLMs__:
+Throughout this research, I evaluated the performance of `GPT-3.5 Turbo` in analyzing obfuscated C. While I did explore `GPT-4` manually to assess its capabilities, I found that it wasn't prefect. There were instances where GPT-4 recognized certain IOCCC entries that GPT-3.5 Turbo missed, but it also encountered failures at times.
+
 An exciting next step involves comparing ChatGPT's performance with other Language Model-based approaches in understanding obfuscated C code. By evaluating different LLMs' capabilities and identifying their respective strengths and weaknesses, researchers can gain a comprehensive understanding of the state-of-the-art in code comprehension.
 
 
+## Note about OpenAI's Code Interpreter
+
+During this research, I learned about [OpenAI's Code Interpreter](https://openai.com/blog/chatgpt-plugins#code-interpreter) plugin, I thought it could be a game-changer compared to the performance of ChatGPT3.5. However, I found that the Code Interpreter __currently__ does not support C files.
 
 ## Conclusion 
 
