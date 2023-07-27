@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Cracking Complexity: How ChatGPT Unravels Obfuscated C Code from the IOCCC"
+title:  "Cracking Complexity: ChatGPT's Exploration of Enigmatic C Code from the IOCCC"
 date:   2023-07-25 14:37:21 +0300
 categories: AI Obfuscation Research
 tags: AI obfuscation ioccc langchain ChatGPT
