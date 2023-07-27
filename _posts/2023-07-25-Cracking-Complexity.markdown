@@ -4,7 +4,7 @@ title:  "Cracking Complexity: How ChatGPT Unravels Obfuscated C Code from the IO
 date:   2023-07-25 14:37:21 +0300
 categories: AI Obfuscation Research
 tags: AI obfuscation ioccc langchain ChatGPT
-image: /assets/images/IMG_5653_e3.JPG
+image: /assets/images/sad_robot.jpg
 ---
 
 ![]({{ page.image }})
@@ -71,17 +71,17 @@ q){q=p;for(v=512;p-q-g&&q-p-              g;  v--)q=-~q*9%512
 From IOCCC: [`yang` 2015](https://www.ioccc.org/2015/yang/prog.c)
 
 ## Building an IOCCC Database for Research
-To efficiently collect the essential information for my research, I developed a Python script to retrieve and organize 
-the data into an SQLite database. This streamlined approach allowed me to create a comprehensive database of IOCCC 
-entries with ease.
+To efficiently collect the essential information for my research, I wrote a short Python script to retrieve and organize 
+the IOCCC different entries into an SQLite database. This dataset is based on the [IOCCC archive](https://github.com/ioccc-src/winner) which is a Github repository containing all the winning entries since 1984.
+The archive also contains hints and [spoilers](https://github.com/ioccc-src/winner/blob/master/all/summary.txt) for each entry.
 
 The database includes each entry's name, year of participation, the obfuscated C program, the hint provided by the author, and the corresponding spoiler. 
 
-For easy access and analysis, I have also shared the Python script and a prebuilt version of the SQLite database in a GitHub repository at https://github.com/nir-mo/ioccc-db. 
+For easy access and analysis, I have also shared the Python script and a prebuilt version of the SQLite database in a GitHub repository at [https://github.com/nir-mo/ioccc-db](https://github.com/nir-mo/ioccc-db). 
 
 ## Analyzing ChatGPT's Performance
 
-In the initial phase of my research, I utilized a Python script powered by [LangChain](https://python.langchain.com/docs/get_started/introduction.html), an innovative library for interacting with OpenAI's GPT-3 language models. This script was designed to map IOCCC entries by querying the language model for insights into the functionality of the obfuscated C programs. By establishing a prompt template, the script simulated the expertise of a __master in C programming language__, asking them to explain each C program's purpose or say `I don't know` if it failed to understand.
+In the initial phase of my research, I utilized a Python script powered by [LangChain](https://python.langchain.com/docs/get_started/introduction.html), a Python library for interacting with OpenAI's GPT-3 and other language models. This script was designed to map IOCCC entries by querying the language model for insights into the functionality of the obfuscated C programs. By establishing a prompt template, the script simulated the expertise of a __master in C programming language__, asking them to explain each C program's purpose or say `I don't know` if it failed to understand.
 
 Note that in some cases the prompt has too many tokens, __I skipped these entries__.
 
@@ -151,9 +151,6 @@ __However__, a closer examination of the results highlights a significant number
 
 For example, when presented with the `westley/1988` program, ChatGPT incorrectly interprets its purpose as performing an undefined division operation (`"This program prints the result of 4 multiplied by minus one divided by zero divided by zero, which is undefined."`), rather than accurately identifying its intended functionality of calculating the value of Pi, as intended by the program's writer. 
 
-Addressing these false positives becomes the next crucial step to achieve a more accurate success rate. By carefully verifying and refining ChatGPT's responses, we aim to improve its ability to comprehend the complexities of various obfuscated C code entries, ensuring more precise interpretations and evaluations moving forward.
-
-
 ```python
 import pandas as pd
 
@@ -167,6 +164,9 @@ print(f"OpenAI analysis = {westley['Result'].values[0].strip()}")
 
     The actual spoiler (calaulate Pie) = prints '3.141', circle made of '_-_-_-_' in layout
     OpenAI analysis = This program prints the result of 4 multiplied by minus one divided by zero divided by zero, which is undefined.
+
+
+Addressing these false positives becomes the next crucial step to achieve a more accurate success rate.
 
 
 ### ChatGPT Assessing its Own Analysis of IOCCC Entries
@@ -236,9 +236,7 @@ __After eliminating false positives, ChatGPT's success rate in analyzing IOCCC e
 ## Insights and Revelations: ChatGPT's Training Clues and Struggle with Short, Deterministic Code
 
 
-In this section, two intriguing case studies come to light. The first focuses on ChatGPT's analysis of `endoh2/2013`. When prompted to discern the program's purpose, ChatGPT responded `"This program is an implementation of an International Obfuscated C Code Contest (IOCCC) challenge from 2013. It reads an input string from the keyboard and prints out a series of characters based on the input string."`. 
-
-This astute recognition of the IOCCC challenge reveals a significant clue that ChatGPT was indeed trained on data encompassing obfuscated entries, making it familiar with the complexities and patterns of the IOCCC codebase.
+In this section, two intriguing case studies come to light. The first focuses on ChatGPT's analysis of `endoh2/2013`. When prompted to recognize the program's purpose, ChatGPT responded `"This program is an implementation of an International Obfuscated C Code Contest (IOCCC) challenge from 2013. It reads an input string from the keyboard and prints out a series of characters based on the input string."`. 
 
 
 ```python
@@ -249,8 +247,10 @@ print(endoh2['Result'].values[0].strip())
 
     This program is an implementation of an International Obfuscated C Code Contest (IOCCC) challenge from 2013. It reads an input string from the keyboard and prints out a series of characters based on the input string.
 
+This recognition reveals a significant clue that ChatGPT was indeed trained on data encompassing obfuscated entries, making it familiar with the complexities and patterns of the IOCCC codebase.
 
-Intriguingly, another compelling case study is the examination of `westley/1988` a relatively short and deterministic program that calculates Pi. 
+
+Another compelling case study is the examination of `westley/1988` a relatively short and deterministic program that calculates Pi. 
 
 ```c
 #define _ -F<00||--F-OO--;
@@ -276,25 +276,25 @@ _-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
 ```
 From IOCCC [westley/1988](https://www.ioccc.org/1988/westley.c)
 
-While this program's analysis lies outside the scope of this blog post, it serves as a perplexing example. With no inputs and no random variables, and given its deterministic nature, it was expected that ChatGPT would comprehend its purpose. However, surprisingly, ChatGPT completely failed to understand this program. The inability to grasp such a straightforward and constant expression raises questions about ChatGPT's computational abilities in handling deterministic calculations, even those that could be evaluated at compilation time. 
+While this program's analysis lies outside the scope of this blog post, it serves as a interesting example - with no inputs and no random variables, and given its deterministic nature, it was expected that ChatGPT would comprehend its purpose. However, surprisingly, ChatGPT completely failed to understand this program. The inability to grasp such a straightforward and constant expression raises questions about ChatGPT's computational abilities in handling deterministic calculations, even those that could be evaluated at compilation time. 
 
 
 ## Implications and Future Directions
 
-The exploration of ChatGPT's performance in deciphering obfuscated C code from the IOCCC has uncovered intriguing insights and potential directions for further research. To shed light on the implications of this study and pave the way for future investigations, several promising avenues emerge:
+The exploration of ChatGPT's performance in deciphering obfuscated C code from the IOCCC has uncovered intriguing insights and potential directions for further research:
 
 
-__Explore more real-world obfuscations__:
-One important consideration regarding the current dataset is its public availability, which raises the possibility that ChatGPT may have been trained on these programs. To expand the scope of the research and avoid potential biases, it is crucial to seek additional code examples that are not as widely accessible. Furthermore, while the IOCCC entries present captivating and artistic obfuscation challenges, they may not fully represent the practical obfuscation techniques found in real-world scenarios. By incorporating more diverse and less publicly available code samples, we can better evaluate ChatGPT's ability to comprehend a wider range of obfuscation styles encountered in practical software development and security contexts.
-
-__Comparing the Results Against Other LLMs__:
-An exciting next step involves comparing ChatGPT's performance with other Language Model-based approaches (LLMs) in understanding obfuscated C code. By evaluating different LLMs' capabilities and identifying their respective strengths and weaknesses, researchers can gain a comprehensive understanding of the state-of-the-art in code comprehension. Such comparisons may highlight unique features of individual models, offering valuable insights to improve the overall effectiveness of AI-driven code analysis.
+__Explore more <u>real-world</u> obfuscations__:
+One important consideration regarding the current dataset is its <u>public availability</u>, which raises the possibility that ChatGPT may have been trained on these programs. To expand the scope of the research and avoid potential biases, it is crucial to seek additional code examples that are not as widely accessible. Furthermore, while the IOCCC entries present captivating and artistic obfuscation challenges, they may not fully represent the practical obfuscation techniques found in real-world scenarios. By incorporating more diverse and less publicly available code samples, we can better evaluate ChatGPT's ability to comprehend a wider range of obfuscation styles encountered in practical software development and security contexts.
 
 __Trying to Write a Candidate for IOCCC Using ChatGPT__:
 In the spirit of the IOCCC challenge, attempting to generate an entry using ChatGPT as a candidate could be an intriguing endeavor. Leveraging ChatGPT's language generation capabilities, developers can explore the creative boundaries of code obfuscation, providing a fascinating experiment in AI-driven code creation. This exercise may unveil new obfuscation techniques and offer an opportunity to evaluate ChatGPT's proficiency in crafting complex and cryptic C programs.
 
 __Providing Simple Tools to Improve Results__:
-As ChatGPT navigates the complexities of obfuscated C code, providing supplementary tools and agents can be instrumental in enhancing its performance. Simple tools like a C-Preprocessor or a C beautify tool can help streamline code analysis by reducing redundancies, optimizing code readability, and potentially aiding ChatGPT in better understanding the underlying logic. These auxiliary tools can act as valuable aids, empowering ChatGPT to navigate intricate code constructs with increased accuracy.
+As ChatGPT navigates the complexities of obfuscated C code, providing supplementary [tools](https://python.langchain.com/docs/modules/agents/tools.html) and [agents](https://docs.langchain.com/docs/components/agents/) can be instrumental in enhancing its performance. Simple tools like a [C-Preprocessor](https://medium.com/@1034/worst-abuse-of-the-c-preprocessor-ioccc-winner-1986-8ae0218de83f) or a C beautify tool can help streamline code analysis by reducing redundancies, optimizing code readability, and potentially aiding ChatGPT in better understanding the underlying logic. These auxiliary tools can act as valuable aids, empowering ChatGPT to navigate intricate code constructs with increased accuracy.
+
+__Comparing the Results Against Other LLMs__:
+An exciting next step involves comparing ChatGPT's performance with other Language Model-based approaches in understanding obfuscated C code. By evaluating different LLMs' capabilities and identifying their respective strengths and weaknesses, researchers can gain a comprehensive understanding of the state-of-the-art in code comprehension.
 
 
 
@@ -302,9 +302,7 @@ As ChatGPT navigates the complexities of obfuscated C code, providing supplement
 
 In conclusion, this research has shed light on ChatGPT's proficiency in analyzing obfuscated C code from the IOCCC. However, it is essential to recognize that ChatGPT is primarily a natural language model, lacking real computational abilities. While it can excel in understanding certain programming constructs based on its training data, its performance is bound by the information it was exposed to during training.
 
-The study highlights the crucial distinction between natural language comprehension and genuine computational capabilities. Despite ChatGPT's language understanding prowess, it relies heavily on the patterns and knowledge present in the data it was trained on. This inherent limitation underscores the need for caution when interpreting ChatGPT's responses, especially in intricate scenarios such as code obfuscation.
-
-The research reaffirms that code obfuscation remains an enduring challenge, and the quest for new and inventive techniques persists. As we embrace the potential of AI language models, we must also acknowledge their inherent constraints and remember that genuine computational abilities require innovative approaches beyond the scope of natural language comprehension.
+The study highlights the crucial distinction between natural language comprehension and genuine computational capabilities. Despite ChatGPT's language understanding prowess, it relies heavily on the patterns and knowledge present in the data it was trained on. This inherent limitation underscores the need for caution when interpreting ChatGPT's responses, especially in intricate scenarios such as code obfuscation. The research confirms that code obfuscation remains an enduring challenge, and the quest for new and inventive techniques persists.
 
 
 If you have any questions, suggestions, or would like to discuss further insights from this research, please feel free to contact me. I welcome your inquiries and look forward to engaging in meaningful discussions about code comprehension, AI language models, and the fascinating world of obfuscated C code.
