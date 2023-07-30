@@ -18,7 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: "Mystery Main: Random Thoughts on Code and the Tech World"
+title: "Mystery main() { Random Thoughts on Code and the Tech World }"
 email: nir.moshe.nm@gmail.com
 description: >-
    Random Thoughts on Code and the Tech World
