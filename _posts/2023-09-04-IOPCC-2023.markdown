@@ -116,5 +116,5 @@ captivating nature!
 3. [The FIGlet fonts library](http://www.jave.de/figlet/fonts.html), specifically the 
    [mini](http://www.jave.de/figlet/fonts/details/mini.html) font.
 4. This guy who wrote ["The essential matchstick equation toolbox :)"](https://narve.github.io/matchstick-puzzle-solver/).
-5. [My Github](https://github.com/nir-mo/iopcc-2023) with the original submission + source code + all the obfuscation 
-   steps.
+5. [My iopcc-2023 Github repo](https://github.com/nir-mo/iopcc-2023) Here you can find the un-obfuscated version of the "matchstick 
+   equations generator" and also the original submission (source code and remarks) + all the obfuscation steps.
