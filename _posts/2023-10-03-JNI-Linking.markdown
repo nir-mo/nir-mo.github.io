@@ -101,4 +101,11 @@ This blog post covers essential aspects of linking in Android development with n
 In Android, if something needs to be global/static and unique, exercise caution when placing it in a static library or module. Android apps often consist of multiple components and libraries, and when using static linking, each component can have its own instance of a singleton. This can lead to unexpected behavior. Therefore, it's crucial to carefully design and manage singletons within your app to ensure they function as intended across different parts of the application.
 
 ## Conclusion
-In the realm of Android development with native (C++) modules, our journey has unveiled a labyrinth of considerations. Whether it's navigating the intricacies of the Java Native Interface (JNI) or carefully weighing the benefits of shared objects (*.so) against the self-contained nature of archive files (*.a), every decision shapes the outcome of your application.
+
+In the realm of Android development with native (C++) modules, our journey has unveiled a labyrinth of considerations. Whether it's navigating the intricacies of the Java Native Interface (JNI) or carefully weighing the benefits of shared objects (`*.so`) against the self-contained nature of archive files (`*.a`), every decision shapes the outcome of your application.
+
+There's no universal rule of thumb that fits all scenarios. Android development with native modules is a realm where flexibility and adaptability take center stage. What works seamlessly for one project may not be the best choice for another. Rather than seeking a one-size-fits-all solution, the key is to deeply understand your project's unique needs.
+
+As you embark on your own journey into Android development with native modules, remember that the optimal solution lies not in blind adherence to specific guidelines but in your ability to adapt and make informed choices. It's a landscape where the needs of your application serve as the compass, and your understanding of the available tools and techniques empowers you to navigate confidently.
+
+If you have any questions or need further assistance, don’t hesitate to reach out to me.
