@@ -25,7 +25,7 @@ description: >-
    Random Thoughts on Code and the Tech World
 
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://nir-mo.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  nir-mo
 linkedin_username: nir-moshe-87a44622b
 google_analytics: G-P4V8MHLYZ4
@@ -36,6 +36,7 @@ plugins:
   - jekyll-feed
   - jekyll-tagging
   - jekyll-seo-tag
+  - jekyll-sitemap # make sure its the last one..
 
 tag_page_layout: tag_page
 tag_page_dir: tag
