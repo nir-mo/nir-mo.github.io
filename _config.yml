@@ -18,8 +18,9 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: "Mystery main() { Random Thoughts on Code and the Tech World }"
+title: "Nirmo's Blog"
 email: nir.moshe.nm@gmail.com
+tagline: Random Thoughts on Code and the Tech World
 description: >-
    Random Thoughts on Code and the Tech World
 
@@ -34,9 +35,17 @@ theme: minima
 plugins:
   - jekyll-feed
   - jekyll-tagging
+  - jekyll-seo-tag
 
 tag_page_layout: tag_page
 tag_page_dir: tag
+
+# SEO
+social:
+  name: Nir Moshe
+  links:
+    - https://www.linkedin.com/in/nir-moshe-87a44622b/
+    - https://github.com/nir-mo
 
 # Exclude from processing.
 # The following items will not be processed, by default.
