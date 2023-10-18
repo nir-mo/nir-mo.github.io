@@ -74,7 +74,7 @@ This architectural approach shines when you have multiple __native libraries tha
 
 ![All libraries are statically linked against libApp.so](/assets/2023-10-10-JNI-Linking/good_all_static.jpg)
 
-The drawbacks include longer compilation times—each change in any native library triggers a full rebuild. There's also the issue of naming collisions; two functions can't share the same name, leading to ambiguity and compilation errors. Plus, __once you introduce a single JNI function, it's at risk of being stripped away as "dead code" by the compiler__. There are ways to handle this, such as the [`--whole-archive` flag](https://ftp.gnu.org/old-gnu/Manuals/ld-2.9.1/html_node/ld_3.html), but it sacrifices compiler optimizations. Alternatively, you can use the [-u](https://ftp.gnu.org/old-gnu/Manuals/ld-2.9.1/html_node/ld_3.html) flag to retain a specific function, but this reveals implementation details to your CMAKE/Makefile, which can be fragile, especially when libraries tend to change.
+The drawbacks include longer compilation times—each change in any native library triggers a full rebuild. There's also the issue of naming collisions; two functions can't share the same name, leading to ambiguity and compilation errors. Plus, __once you introduce a single JNI function, [it's at risk of being stripped away as "dead code" by the compiler](#archive-files-and-shared-objects---an-overview)__. There are ways to handle this, such as the [`--whole-archive` flag](https://ftp.gnu.org/old-gnu/Manuals/ld-2.9.1/html_node/ld_3.html), but it sacrifices compiler optimizations. Alternatively, you can use the [-u](https://ftp.gnu.org/old-gnu/Manuals/ld-2.9.1/html_node/ld_3.html) flag to retain a specific function, but this reveals implementation details to your CMAKE/Makefile, which can be fragile, especially when libraries tend to change.
 
 ### Using Only Shared Objects
 Opting for shared objects eliminates code duplication and ensures the compiler won't prematurely prune your code. However, there's a trade-off. If you have a large shared object file but only use a small portion of it, your app still carries the entire file, missing out on compiler optimizations.
@@ -92,12 +92,12 @@ If your library implements C++ functions for a Java/Kotlin interface and offers 
 If you're only utilizing a fraction of its capabilities, you likely don't want to include the entire code in your app's binary. Consider using static linking for optimization. For example, [OpenCV](https://opencv.org/) is a substantial library, and you might not need all its features. If you can use it solely through the native interface, linking it as a static archive can significantly reduce your APK size.
 
 ### Is the Library Shared Among Multiple Libraries with Shared Objects?
-If yes, consider publishing it as a shared object to avoid code replication in each `*.so` file. But, again, if it's way too big then read the previous section.
+If yes, consider publishing it as a shared object to avoid code replication in each `*.so` file. But, again, if it's way too big then read the [previous section](#is-it-a-large-libraryframework).
 
 ### Other Considerations
 This blog post covers essential aspects of linking in Android development with native libraries. However, there are additional considerations not explored here, such as:
 #### Singletons and other unique objects
-If you have a variable which is a [singleton](https://en.wikipedia.org/wiki/Singleton_pattern) (or just a global variable), exercise caution when placing it in a static library. Recall that static libraries are copied into shared object files. So if you have multiple shared objects linked against a specific static library with a singleton implementation then each component can have its own instance of a singleton. This can lead to unexpected behavior. Therefore, it's crucial to carefully design and manage singletons within your app to ensure they function as intended across different parts of the application.
+If you have a variable which is a [singleton](https://en.wikipedia.org/wiki/Singleton_pattern) (or just a global variable), exercise caution when placing it in a static library. [Recall that static libraries are copied into shared object files](#dont-mix-linking-types). So if you have multiple shared objects linked against a specific static library with a singleton implementation then each component can have its own instance of a singleton. This can lead to unexpected behavior. Therefore, it's crucial to carefully design and manage singletons within your app to ensure they function as intended across different parts of the application.
 
 ## Conclusion
 
@@ -107,4 +107,4 @@ There's no universal rule of thumb that fits all scenarios. Android development 
 
 As you embark on your own journey into Android development with native libraries, remember that the optimal solution lies not in blind adherence to specific guidelines but in your ability to adapt and make informed choices. It's a landscape where the needs of your application serve as the compass, and your understanding of the available tools and techniques empowers you to navigate confidently.
 
-If you have any questions or need further assistance, don’t hesitate to reach out to me.
+If you have any questions or need further assistance, don’t hesitate to reach out to [me](https://www.linkedin.com/in/nir-moshe-87a44622b/).
