@@ -3,7 +3,7 @@ layout: post
 title: "Linking Tips and Insights for Android Native Libraries"
 date:   2023-10-10 14:07:00 +0300
 categories: Android
-tags: android jni linking
+tags: android jni linking lightricks
 image: /assets/images/android_in_library.jpeg
 ---
 
