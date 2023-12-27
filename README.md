@@ -1,3 +1,6 @@
+# Installation and notes to myself
+The current version of Jekyll and github-pages works with **ruby version 2.7.4**! Using higher version of ruby throws starge exceptions...
+
 # minima
 
 *Minima is a one-size-fits-all Jekyll theme for writers*. It's Jekyll's default (and first) theme. It's what you get when you run `jekyll new`.
