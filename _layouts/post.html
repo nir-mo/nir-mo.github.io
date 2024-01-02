@@ -22,7 +22,7 @@ layout: default
   {% if page.tags.size > 0 %}
     {% for tag in page.tags %}  
       {% assign temp_tag_url = tag | tag_url %}
-      {% include tag.html label=tag url=temp_tag_url %}
+      {% include tag.html label=tag url=temp_tag_url border=true %}
     {% endfor %}
   {% endif %}
 

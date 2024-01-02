@@ -23,6 +23,6 @@ layout: default
 <div id="tag-cloud">
   {% for tag in site.tags %}
     {% assign temp_tag_url = tag.first | tag_url %}
-    {% include tag.html label=tag.first url=temp_tag_url %}
+    {% include tag.html label=tag.first url=temp_tag_url border=true %}
   {% endfor %} 
 </div>
