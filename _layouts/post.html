@@ -20,9 +20,9 @@ layout: default
   </div>
 
   {% if page.tags.size > 0 %}
-    <h4>Tags:</h4>
     {% for tag in page.tags %}  
-      <a href="/{{ site.tag_page_dir }}/{{ tag | slugify: 'pretty' }}.html">{{ tag }}</a>&nbsp;&nbsp;
+      {% assign temp_tag_url = tag | tag_url %}
+      {% include tag.html label=tag url=temp_tag_url %}
     {% endfor %}
   {% endif %}
 
