@@ -13,18 +13,18 @@ layout: default
       {%- if page.author -%}
         • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card" itemprop="name">{{ page.author }}</span></span>
       {%- endif -%}</p>
+
+    {% if page.tags.size > 0 %}
+      {% for tag in page.tags %}  
+        {% assign temp_tag_url = tag | tag_url %}
+        {% include tag.html label=tag url=temp_tag_url %}
+      {% endfor %}
+    {% endif %}
   </header>
 
   <div class="post-content e-content" itemprop="articleBody">
     {{ content }}
   </div>
-
-  {% if page.tags.size > 0 %}
-    {% for tag in page.tags %}  
-      {% assign temp_tag_url = tag | tag_url %}
-      {% include tag.html label=tag url=temp_tag_url border=true %}
-    {% endfor %}
-  {% endif %}
 
   {%- if site.disqus.shortname -%}
     {%- include disqus_comments.html -%}
