@@ -4,7 +4,7 @@ title:  "Cutting Through Code Review Conflicts with Targeted Testing"
 date:   2024-08-18 16:37:21 +0300
 categories: SoftwareEngineering
 tags: SoftwareEngineering testing CodeReview
-image: /assets/2024-08-19-Cutting-Through-Code-Review-Conflicts-with-Targeted-Testing/1724012553659.jpg
+image: /assets/2024-08-19-Cutting-Through-Code-Review-Conflicts-with-Targeted-Testing/developers_in_conflict.jpeg
 ---
 
 ![]({{ page.image }})
@@ -53,4 +53,4 @@ Disagreements during code reviews are almost inevitable, especially when potenti
 
 This approach not only helps in quickly resolving whether a bug truly exists but also enhances the overall quality of the codebase. Moreover, it promotes a healthier team dynamic by shifting the focus from personal opinions to objective results. As someone who has experienced the benefits of this technique both as a reviewee and a reviewer, I can confidently say that it’s a valuable tool for anyone involved in code reviews.
 
-I encourage you to try this method in your next code review. Now, all you need to do is convince the reviewee to write that additional test!
+I encourage you to try this method in your next code review. **Now, all you need to do is convince the reviewee to write that additional test!**
