@@ -8,11 +8,18 @@ I'm a naturally curious software developer with a deep passion for understanding
 
 What really excites me is the intersection of __AI__, __compilers__, and __cyber security__. I love exploring the fascinating connections between these fields and discovering innovative solutions. As a clean code enthusiast, I take pride in my ability to independently plan and execute projects from start to finish.
 
-I currently work at [Lightricks](https://www.lightricks.com/) as a Senior Android developer.
+I currently work at [Magic Leap](https://www.magicleap.com/en-gb) as a Staff Security Engineer and Security group Tech Lead.
 
 ### Work expirenece
 
-#### __Senior Android Developer__ | [Lightricks](https://www.lightricks.com/) | May 2020 - Present
+#### __Staff Security Engineer | Security gorup Tech Lead__ | [Magic Leap](https://www.magicleap.com/en-gb) | October 2023 - Present
+Secure Boot Architecture: Designed and implemented a secure boot architecture, incorporating cryptographic signature verification and embedded programming.
+
+AOSP Hardware Layer Implementation: Implemented the hardware layer in AOSP, specifically focusing on Keymaster, utilizing Trusted Execution Environment (TEE).
+
+__Skills__: AOSP · C++ · Embedded C · TEE · Secure boot
+
+#### __Senior Android Developer__ | [Lightricks](https://www.lightricks.com/) | May 2020 - October 2023
 
   Developed high-quality Android applications as a senior member of the Android development team at Lightricks.
   Contributed to the development and maintenance of a large code base, ensuring clean and efficient code.
