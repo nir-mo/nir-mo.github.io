@@ -12,7 +12,12 @@ I currently work at [Magic Leap](https://www.magicleap.com/en-gb) as a Staff Sec
 
 ### Work expirenece
 
-#### __Staff Security Engineer | Security gorup Tech Lead__ | [Magic Leap](https://www.magicleap.com/en-gb) | October 2023 - Present
+#### __Senior Software Engineer__ | [Wiz](https://www.wiz.io/) | December 2024 - Present
+Backend engineering, mostly Go Lang, AWS and Azure. 
+
+__Skills__: Go · RDS · Python · Backend Development · K8s · GQL
+
+#### __Staff Security Engineer | Security gorup Tech Lead__ | [Magic Leap](https://www.magicleap.com/en-gb) | October 2023 - November 2024
 Secure Boot Architecture: Designed and implemented a secure boot architecture, incorporating cryptographic signature verification and embedded programming.
 
 AOSP Hardware Layer Implementation: Implemented the hardware layer in AOSP, specifically focusing on Keymaster, utilizing Trusted Execution Environment (TEE).

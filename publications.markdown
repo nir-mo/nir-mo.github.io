@@ -9,6 +9,10 @@ permalink: /other_publications/
 * Co-inventor of [Efficient real-time authentication of arbitrary segments of live and non-live video stream](https://patents.justia.com/patent/10361865), US 10361865 · Issued Aug 29, 2017
 * Co-inventor of [Automatic computer program obfuscation system](https://patents.google.com/patent/US20140229517), US 2014/0229517 A1 · Issued Aug 14, 2014
 
+#### CVE
+* [CVE-2024-53845: AES/CBC Constant IV Vulnerability in ESPTouch v2](https://github.com/espressif/esp-idf/security/advisories/GHSA-wm57-466g-mhrr): Discovered and reported a security vulnerability (CVE-2024-53845) in the ESP-Touch V2 protocol (SmartConfig), where AES128/CBC was implemented with a constant IV. 
+This could potentially impact the security of device provisioning. The vulnerability has been officially acknowledged and documented in the ESP-IDF security advisory.
+
 #### Other blog posts
 
 * [Packaging Native Code with Prefab: A Solution for Imported Prebuilt Binaries](https://medium.com/lightricks-tech-blog/packaging-native-code-with-prefab-a-solution-for-imported-prebuilt-binaries-801348e306c4), 
