@@ -8,7 +8,7 @@ I'm a naturally curious software developer with a deep passion for understanding
 
 What really excites me is the intersection of __AI__, __compilers__, and __cyber security__. I love exploring the fascinating connections between these fields and discovering innovative solutions. As a clean code enthusiast, I take pride in my ability to independently plan and execute projects from start to finish.
 
-I currently work at [Magic Leap](https://www.magicleap.com/en-gb) as a Staff Security Engineer and Security group Tech Lead.
+I currently work at [Wiz](https://www.wiz.io/) as a Senior Software Engineer.
 
 ### Work expirenece
 
