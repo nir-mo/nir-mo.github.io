@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "CVE-2024-53845 – A Small Crypto Detail, Found by Accident"
+title:  "CVE-2024-53845 - A Small Crypto Detail, Found by Accident"
 date:   2026-01-25 11:00:00 +0300
 categories: SecurityEngineering
 tags: Cryptography CVE AES CBC SecurityEngineering ESPTouch
